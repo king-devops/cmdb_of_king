@@ -1,0 +1,25 @@
+Started by user [8mha:////4C5wxn62V2PKMWQP7OKYw+BB4TxXhQKg+iX9HYPoErnYAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/first-freestyle-task
+using credential d9895c52-b8b3-4442-8234-a1aab17e13ae
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@auto-cmdb_gitlab_1:root/test-cicd-code.git # timeout=10
+Fetching upstream changes from git@auto-cmdb_gitlab_1:root/test-cicd-code.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 用于测试的私钥
+ > git fetch --tags --force --progress -- git@auto-cmdb_gitlab_1:root/test-cicd-code.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 8c23b25d266fbe52d6dcaafedb64032dbb6ba5c6 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8c23b25d266fbe52d6dcaafedb64032dbb6ba5c6 # timeout=10
+Commit message: "Initial commit"
+ > git rev-list --no-walk 8c23b25d266fbe52d6dcaafedb64032dbb6ba5c6 # timeout=10
+[first-freestyle-task] $ /bin/sh -xe /tmp/jenkins2909370028888595827.sh
++ echo /var/jenkins_home/workspace/first-freestyle-task
+/var/jenkins_home/workspace/first-freestyle-task
++ ls /var/jenkins_home/workspace/first-freestyle-task
+README.md
+Archiving artifacts
+Finished: SUCCESS

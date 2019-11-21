@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-11-15 12:57:27.676 UTC</timestamp>
+  <md5sum>6393363b47ddcbba82321110c3e07519</md5sum>
+  <fileName>org.hamcrest:hamcrest-core-1.3.jar</fileName>
+  <usages>
+    <entry>
+      <string>maven-hello/com.mycompany.app:my-app</string>
+      <ranges>2,4</ranges>
+    </entry>
+    <entry>
+      <string>maven-hello</string>
+      <ranges>2,4</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

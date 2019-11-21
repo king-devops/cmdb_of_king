@@ -1,0 +1,6 @@
+[filesystem "IcedTea|1.8.0_212|osxfs"]
+	timestampResolution = 1001 milliseconds
+	minRacyThreshold = 0 nanoseconds
+[filesystem "IcedTea|1.8.0_212|/dev/mapper/centos-root"]
+	timestampResolution = 1001 milliseconds
+	minRacyThreshold = 0 nanoseconds

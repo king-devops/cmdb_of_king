@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-11-15 11:35:27.325 UTC</timestamp>
+  <md5sum>793ad4a5f208b4b5c65801176b9e9e46</md5sum>
+  <fileName>Credential id=6651c7c7-2878-4271-aba1-d66e07b82546 name=root (这是cmdb项目中gitlab的私钥)</fileName>
+  <usages>
+    <entry>
+      <string>maven-hello</string>
+      <ranges>1-6</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

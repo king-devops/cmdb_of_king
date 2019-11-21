@@ -1,0 +1,84 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.3">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2.76">
+    <parentIds>
+      <string>6</string>
+    </parentIds>
+    <id>7</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.support.steps.input.InputStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.76">
+      <arguments>
+        <entry>
+          <string>submitter</string>
+          <string>alice,bob</string>
+        </entry>
+        <entry>
+          <string>id</string>
+          <string>Example</string>
+        </entry>
+        <entry>
+          <string>submitterParameter</string>
+          <null/>
+        </entry>
+        <entry>
+          <string>message</string>
+          <string>Should we continue?</string>
+        </entry>
+        <entry>
+          <string>ok</string>
+          <string>Yes, we should.</string>
+        </entry>
+        <entry>
+          <string>parameters</string>
+          <list>
+            <org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable plugin="structs@1.20">
+              <symbol>string</symbol>
+              <arguments class="tree-map">
+                <entry>
+                  <string>defaultValue</string>
+                  <string>Mr Jenkins</string>
+                </entry>
+                <entry>
+                  <string>description</string>
+                  <string>Who should I say hello to?</string>
+                </entry>
+                <entry>
+                  <string>name</string>
+                  <string>PERSON</string>
+                </entry>
+                <entry>
+                  <string>trim</string>
+                  <boolean>false</boolean>
+                </entry>
+              </arguments>
+              <model resolves-to="org.jenkinsci.plugins.structs.describable.DescribableModel$SerializedForm">
+                <type>hudson.model.StringParameterDefinition</type>
+              </model>
+            </org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+          </list>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>false</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.37">
+      <startTime>1574145540136</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+    <s.a.PauseAction>
+      <cause>Input</cause>
+      <startTime>1574145540148</startTime>
+      <endTime>1574145552114</endTime>
+    </s.a.PauseAction>
+    <org.jenkinsci.plugins.workflow.support.steps.input.InputSubmittedAction plugin="pipeline-input-step@2.11">
+      <parameters class="linked-hash-map">
+        <entry>
+          <string>PERSON</string>
+          <string>Mr Jenkins</string>
+        </entry>
+      </parameters>
+      <approver>admin</approver>
+    </org.jenkinsci.plugins.workflow.support.steps.input.InputSubmittedAction>
+  </actions>
+</Tag>

@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-11-18 07:00:48.438 UTC</timestamp>
+  <original>
+    <name>maven-hello/com.mycompany.app:my-app</name>
+    <number>4</number>
+  </original>
+  <md5sum>07848617d51e6c4fed187d49dafd0359</md5sum>
+  <fileName>com.mycompany.app:my-app-1.0-SNAPSHOT.jar</fileName>
+  <usages>
+    <entry>
+      <string>maven-hello/com.mycompany.app:my-app</string>
+      <ranges>4</ranges>
+    </entry>
+    <entry>
+      <string>maven-hello</string>
+      <ranges>4</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

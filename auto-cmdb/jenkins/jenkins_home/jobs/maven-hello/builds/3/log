@@ -1,0 +1,20 @@
+Started by user [8mha:////4C5wxn62V2PKMWQP7OKYw+BB4TxXhQKg+iX9HYPoErnYAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/maven-hello
+using credential f346320a-1339-4887-bc6a-0ffbc603c561
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@gitlab_server:king/maven.git # timeout=10
+Fetching upstream changes from git@gitlab_server:king/maven.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 这是cmdb项目中gitlab的私钥
+ > git fetch --tags --force --progress -- git@gitlab_server:king/maven.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 2b38c1f618b3742c30658eff2aeb4dca45856f02 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2b38c1f618b3742c30658eff2aeb4dca45856f02 # timeout=10
+Commit message: "java代码"
+ > git rev-list --no-walk 2b38c1f618b3742c30658eff2aeb4dca45856f02 # timeout=10
+ERROR: Maven Home /usr/local/apache-maven-3.6.2 doesnt exist
+Finished: FAILURE

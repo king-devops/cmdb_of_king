@@ -1,0 +1,17 @@
+Started at Wed Nov 20 02:04:54 GMT 2019
+Checking ansible-ad-hoc
+Checking ansible-test-args
+Checking auto_cmdb-task
+Checking cmdb-webhook-cicd
+Checking docker-pipeline
+Checking first-freestyle-task
+Checking maven-hello
+Checking pipeline-docker-cmdb
+Checking pipline-test
+Checking play-book-test
+Checking say-hello
+Checking stages-docker-agent
+Checking tar-test
+Checking test-ansible
+Checking test-git
+Finished at Wed Nov 20 02:04:54 GMT 2019. 4ms

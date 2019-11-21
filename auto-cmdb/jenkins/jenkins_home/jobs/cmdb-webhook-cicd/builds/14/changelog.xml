@@ -1,0 +1,10 @@
+commit a5baa2d30ad8f050ebcd8fcfb97510976363edcf
+tree dcc56988cce7756c6c740519af0b283a6f43d0fa
+parent e86f1d9a1b1c6978636a9b25d3f74ce9c90aa644
+author king <wgy@wgy> 2019-11-15 16:23:26 +0800
+committer king <wgy@wgy> 2019-11-15 16:23:26 +0800
+
+    test
+
+
+:100644 100644 060dc7f8e04d8367d86dfd027474694bc560563a 9d5c0cbae070d65d30fa460d4344160d54c3f7cb M	auto_cmdb/templates/base.html

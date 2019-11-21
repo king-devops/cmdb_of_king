@@ -1,0 +1,15 @@
+Started by user [8mha:////4C5wxn62V2PKMWQP7OKYw+BB4TxXhQKg+iX9HYPoErnYAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/ansible-ad-hoc
+[ansible-ad-hoc] $ /usr/bin/ansible all -i /etc/ansible/hosts -m debug -a msg="{{name}}" -f 5 -e name=king
+ [WARNING]: Found variable using reserved name: name
+auto-cmdb_cmdb_2 | SUCCESS => {
+    "msg": "king"
+}
+auto-cmdb_cmdb_1 | SUCCESS => {
+    "msg": "king"
+}
+127.0.0.1 | SUCCESS => {
+    "msg": "king"
+}
+Finished: SUCCESS

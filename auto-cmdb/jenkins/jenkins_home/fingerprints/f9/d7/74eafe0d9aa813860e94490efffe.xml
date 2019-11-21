@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-11-19 12:49:01.971 UTC</timestamp>
+  <original>
+    <name>pipeline-docker-cmdb</name>
+    <number>5</number>
+  </original>
+  <md5sum>f9d774eafe0d9aa813860e94490efffe</md5sum>
+  <fileName>Docker image sha256:f9d774eafe0d9aa813860e94490efffec6041d63a786133749974c15c055663e</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.15">
+      <timestamp>1574167741974</timestamp>
+      <imageId>sha256:f9d774eafe0d9aa813860e94490efffec6041d63a786133749974c15c055663e</imageId>
+      <usages>
+        <entry>
+          <string>pipeline-docker-cmdb</string>
+          <ranges>5</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>2238f92781c0</host>
+          <containerId>2238f92781c0de8f103d5f7cbb41ab4c6cb0581d9995279ab997923ff5eb29ee</containerId>
+          <containerName>/angry_wright</containerName>
+          <created>1574167741000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>

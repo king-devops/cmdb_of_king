@@ -1,0 +1,51 @@
+2019-11-19_00:47:50.37385 level=info ts=2019-11-19T00:47:50.373Z caller=main.go:293 msg="no time or size retention was set so using the default time retention" duration=15d
+2019-11-19_00:47:50.37405 level=info ts=2019-11-19T00:47:50.373Z caller=main.go:329 msg="Starting Prometheus" version="(version=2.12.0, branch=master, revision=)"
+2019-11-19_00:47:50.37406 level=info ts=2019-11-19T00:47:50.373Z caller=main.go:330 build_context="(go=go1.12.7, user=GitLab-Omnibus, date=)"
+2019-11-19_00:47:50.37406 level=info ts=2019-11-19T00:47:50.373Z caller=main.go:331 host_details="(Linux 3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018 x86_64 gitlab.king.com (none))"
+2019-11-19_00:47:50.37406 level=info ts=2019-11-19T00:47:50.373Z caller=main.go:332 fd_limits="(soft=50000, hard=50000)"
+2019-11-19_00:47:50.37407 level=info ts=2019-11-19T00:47:50.373Z caller=main.go:333 vm_limits="(soft=unlimited, hard=unlimited)"
+2019-11-19_00:47:50.39766 level=info ts=2019-11-19T00:47:50.397Z caller=main.go:654 msg="Starting TSDB ..."
+2019-11-19_00:47:50.39789 level=info ts=2019-11-19T00:47:50.397Z caller=web.go:448 component=web msg="Start listening for connections" address=localhost:9090
+2019-11-19_00:47:50.39965 level=info ts=2019-11-19T00:47:50.398Z caller=repair.go:59 component=tsdb msg="found healthy block" mint=1573720419466 maxt=1573732800000 ulid=01DSPG1PZBJQR1NYEAA2RXY0MB
+2019-11-19_00:47:50.39967 level=info ts=2019-11-19T00:47:50.398Z caller=repair.go:59 component=tsdb msg="found healthy block" mint=1573732800000 maxt=1573797600000 ulid=01DSQ4MVD4D4AVCJNV99RSGAJ5
+2019-11-19_00:47:50.39968 level=info ts=2019-11-19T00:47:50.398Z caller=repair.go:59 component=tsdb msg="found healthy block" mint=1573797600000 maxt=1573826400000 ulid=01DSSC6SVQ9J0AG3QWSPQVWKAQ
+2019-11-19_00:47:50.39968 level=info ts=2019-11-19T00:47:50.398Z caller=repair.go:59 component=tsdb msg="found healthy block" mint=1573862400000 maxt=1573898400000 ulid=01DSYH4DRTZQ4NSCWC2K7FVNNR
+2019-11-19_00:47:50.39969 level=info ts=2019-11-19T00:47:50.399Z caller=repair.go:59 component=tsdb msg="found healthy block" mint=1574035200000 maxt=1574056800000 ulid=01DSYVTZPTQ8W9DTPEEYFAQBYH
+2019-11-19_00:47:50.39969 level=info ts=2019-11-19T00:47:50.399Z caller=repair.go:59 component=tsdb msg="found healthy block" mint=1574078400000 maxt=1574085600000 ulid=01DT0G92906H9T1XSYA4NANXGQ
+2019-11-19_00:47:50.39969 level=info ts=2019-11-19T00:47:50.399Z caller=repair.go:59 component=tsdb msg="found healthy block" mint=1574056800000 maxt=1574078400000 ulid=01DT0G94VGDRDT6XYQKJMDR8BR
+2019-11-19_00:47:50.62149 level=info ts=2019-11-19T00:47:50.621Z caller=head.go:509 component=tsdb msg="replaying WAL, this may take awhile"
+2019-11-19_00:47:51.27460 level=info ts=2019-11-19T00:47:51.274Z caller=head.go:533 component=tsdb msg="WAL checkpoint loaded"
+2019-11-19_00:47:51.27492 level=info ts=2019-11-19T00:47:51.274Z caller=head.go:557 component=tsdb msg="WAL segment loaded" segment=120 maxSegment=124
+2019-11-19_00:47:51.28374 level=info ts=2019-11-19T00:47:51.283Z caller=head.go:557 component=tsdb msg="WAL segment loaded" segment=121 maxSegment=124
+2019-11-19_00:47:51.28405 level=info ts=2019-11-19T00:47:51.283Z caller=head.go:557 component=tsdb msg="WAL segment loaded" segment=122 maxSegment=124
+2019-11-19_00:47:53.00019 level=info ts=2019-11-19T00:47:53.000Z caller=head.go:557 component=tsdb msg="WAL segment loaded" segment=123 maxSegment=124
+2019-11-19_00:47:53.00686 level=info ts=2019-11-19T00:47:53.006Z caller=head.go:557 component=tsdb msg="WAL segment loaded" segment=124 maxSegment=124
+2019-11-19_00:47:53.09347 level=info ts=2019-11-19T00:47:53.093Z caller=main.go:669 fs_type=XFS_SUPER_MAGIC
+2019-11-19_00:47:53.09354 level=info ts=2019-11-19T00:47:53.093Z caller=main.go:670 msg="TSDB started"
+2019-11-19_00:47:53.09365 level=info ts=2019-11-19T00:47:53.093Z caller=main.go:740 msg="Loading configuration file" filename=/var/opt/gitlab/prometheus/prometheus.yml
+2019-11-19_00:47:53.11109 level=error ts=2019-11-19T00:47:53.111Z caller=manager.go:334 component="discovery manager scrape" msg="Cannot create service discovery" err="unable to load specified CA cert /var/run/secrets/kubernetes.io/serviceaccount/ca.crt: open /var/run/secrets/kubernetes.io/serviceaccount/ca.crt: no such file or directory" type=*kubernetes.SDConfig
+2019-11-19_00:47:53.11123 level=error ts=2019-11-19T00:47:53.111Z caller=manager.go:334 component="discovery manager scrape" msg="Cannot create service discovery" err="unable to load specified CA cert /var/run/secrets/kubernetes.io/serviceaccount/ca.crt: open /var/run/secrets/kubernetes.io/serviceaccount/ca.crt: no such file or directory" type=*kubernetes.SDConfig
+2019-11-19_00:47:53.11135 level=error ts=2019-11-19T00:47:53.111Z caller=manager.go:334 component="discovery manager scrape" msg="Cannot create service discovery" err="unable to load specified CA cert /var/run/secrets/kubernetes.io/serviceaccount/ca.crt: open /var/run/secrets/kubernetes.io/serviceaccount/ca.crt: no such file or directory" type=*kubernetes.SDConfig
+2019-11-19_00:47:53.14370 level=info ts=2019-11-19T00:47:53.143Z caller=main.go:768 msg="Completed loading of configuration file" filename=/var/opt/gitlab/prometheus/prometheus.yml
+2019-11-19_00:47:53.14381 level=info ts=2019-11-19T00:47:53.143Z caller=main.go:623 msg="Server is ready to receive web requests."
+2019-11-19_00:47:58.15294 level=error ts=2019-11-19T00:47:58.152Z caller=manager.go:123 component="scrape manager" msg="error creating new scrape pool" err="error creating HTTP client: unable to load specified CA cert /var/run/secrets/kubernetes.io/serviceaccount/ca.crt: open /var/run/secrets/kubernetes.io/serviceaccount/ca.crt: no such file or directory" scrape_pool=kubernetes-nodes
+2019-11-19_00:47:58.15310 level=error ts=2019-11-19T00:47:58.153Z caller=manager.go:123 component="scrape manager" msg="error creating new scrape pool" err="error creating HTTP client: unable to load specified CA cert /var/run/secrets/kubernetes.io/serviceaccount/ca.crt: open /var/run/secrets/kubernetes.io/serviceaccount/ca.crt: no such file or directory" scrape_pool=kubernetes-cadvisor
+2019-11-19_00:47:58.15322 level=error ts=2019-11-19T00:47:58.153Z caller=manager.go:123 component="scrape manager" msg="error creating new scrape pool" err="error creating HTTP client: unable to load specified CA cert /var/run/secrets/kubernetes.io/serviceaccount/ca.crt: open /var/run/secrets/kubernetes.io/serviceaccount/ca.crt: no such file or directory" scrape_pool=kubernetes-pods
+2019-11-19_00:48:00.76683 level=info ts=2019-11-19T00:48:00.766Z caller=head.go:593 component=tsdb msg="head GC completed" duration=83.396246ms
+2019-11-19_00:48:01.00780 level=info ts=2019-11-19T00:48:01.007Z caller=head.go:663 component=tsdb msg="WAL checkpoint complete" first=120 last=121 duration=239.672997ms
+2019-11-19_00:48:01.68405 level=info ts=2019-11-19T00:48:01.683Z caller=head.go:593 component=tsdb msg="head GC completed" duration=47.603723ms
+2019-11-19_00:48:02.06441 level=info ts=2019-11-19T00:48:02.064Z caller=head.go:593 component=tsdb msg="head GC completed" duration=29.951756ms
+2019-11-19_00:48:03.01551 level=info ts=2019-11-19T00:48:03.015Z caller=head.go:663 component=tsdb msg="WAL checkpoint complete" first=122 last=123 duration=950.957967ms
+2019-11-19_00:48:03.51562 level=info ts=2019-11-19T00:48:03.507Z caller=head.go:593 component=tsdb msg="head GC completed" duration=63.074569ms
+2019-11-19_00:49:47.31550 level=warn ts=2019-11-19T00:49:47.315Z caller=main.go:498 msg="Received SIGTERM, exiting gracefully..."
+2019-11-19_00:49:47.31551 level=info ts=2019-11-19T00:49:47.315Z caller=main.go:523 msg="Stopping scrape discovery manager..."
+2019-11-19_00:49:47.31552 level=info ts=2019-11-19T00:49:47.315Z caller=main.go:537 msg="Stopping notify discovery manager..."
+2019-11-19_00:49:47.31553 level=info ts=2019-11-19T00:49:47.315Z caller=main.go:559 msg="Stopping scrape manager..."
+2019-11-19_00:49:47.31639 level=info ts=2019-11-19T00:49:47.315Z caller=main.go:519 msg="Scrape discovery manager stopped"
+2019-11-19_00:49:47.31641 level=info ts=2019-11-19T00:49:47.315Z caller=main.go:533 msg="Notify discovery manager stopped"
+2019-11-19_00:49:47.31641 level=info ts=2019-11-19T00:49:47.315Z caller=manager.go:815 component="rule manager" msg="Stopping rule manager..."
+2019-11-19_00:49:47.31642 level=info ts=2019-11-19T00:49:47.315Z caller=manager.go:821 component="rule manager" msg="Rule manager stopped"
+2019-11-19_00:49:47.31642 level=info ts=2019-11-19T00:49:47.315Z caller=main.go:553 msg="Scrape manager stopped"
+2019-11-19_00:49:47.31879 level=info ts=2019-11-19T00:49:47.318Z caller=notifier.go:602 component=notifier msg="Stopping notification manager..."
+2019-11-19_00:49:47.31880 level=info ts=2019-11-19T00:49:47.318Z caller=main.go:724 msg="Notifier manager stopped"
+2019-11-19_00:49:47.31900 level=info ts=2019-11-19T00:49:47.318Z caller=main.go:736 msg="See you next time!"

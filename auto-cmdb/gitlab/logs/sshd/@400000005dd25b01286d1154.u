@@ -1,0 +1,85 @@
+2019-11-18_01:34:32.00567 Server listening on 0.0.0.0 port 22.
+2019-11-18_01:34:32.00577 Server listening on :: port 22.
+2019-11-18_03:49:09.62019 Accepted publickey for git from 172.25.0.5 port 49550 ssh2: RSA SHA256:f6soDZJdQmZcu8AfFwW/pm5lslanUn9xrrp2RNw+aWs
+2019-11-18_03:49:10.38030 Received disconnect from 172.25.0.5 port 49550:11: disconnected by user
+2019-11-18_03:49:10.38032 Disconnected from 172.25.0.5 port 49550
+2019-11-18_03:51:49.59843 Connection closed by 172.25.0.5 port 49622 [preauth]
+2019-11-18_03:51:50.92049 Accepted publickey for git from 172.25.0.5 port 49626 ssh2: RSA SHA256:f6soDZJdQmZcu8AfFwW/pm5lslanUn9xrrp2RNw+aWs
+2019-11-18_03:51:51.02842 Received disconnect from 172.25.0.5 port 49626:11: disconnected by user
+2019-11-18_03:51:51.02844 Disconnected from 172.25.0.5 port 49626
+2019-11-18_04:01:16.51895 Accepted publickey for git from 172.25.0.5 port 49770 ssh2: RSA SHA256:f6soDZJdQmZcu8AfFwW/pm5lslanUn9xrrp2RNw+aWs
+2019-11-18_04:01:16.63162 Received disconnect from 172.25.0.5 port 49770:11: disconnected by user
+2019-11-18_04:01:16.63164 Disconnected from 172.25.0.5 port 49770
+2019-11-18_04:05:21.33477 Accepted publickey for git from 172.25.0.5 port 49840 ssh2: RSA SHA256:f6soDZJdQmZcu8AfFwW/pm5lslanUn9xrrp2RNw+aWs
+2019-11-18_04:05:21.95754 Received disconnect from 172.25.0.5 port 49840:11: disconnected by user
+2019-11-18_04:05:21.95756 Disconnected from 172.25.0.5 port 49840
+2019-11-18_06:02:10.92723 Accepted publickey for git from 172.25.0.5 port 50118 ssh2: RSA SHA256:f6soDZJdQmZcu8AfFwW/pm5lslanUn9xrrp2RNw+aWs
+2019-11-18_06:02:11.70329 Received disconnect from 172.25.0.5 port 50118:11: disconnected by user
+2019-11-18_06:02:11.70333 Disconnected from 172.25.0.5 port 50118
+2019-11-18_06:02:30.22912 Accepted publickey for git from 172.25.0.5 port 50140 ssh2: RSA SHA256:f6soDZJdQmZcu8AfFwW/pm5lslanUn9xrrp2RNw+aWs
+2019-11-18_06:02:30.31884 Received disconnect from 172.25.0.5 port 50140:11: disconnected by user
+2019-11-18_06:02:30.31886 Disconnected from 172.25.0.5 port 50140
+2019-11-18_06:06:21.84325 Accepted publickey for git from 172.25.0.5 port 50220 ssh2: RSA SHA256:f6soDZJdQmZcu8AfFwW/pm5lslanUn9xrrp2RNw+aWs
+2019-11-18_06:06:22.09110 Received disconnect from 172.25.0.5 port 50220:11: disconnected by user
+2019-11-18_06:06:22.09112 Disconnected from 172.25.0.5 port 50220
+2019-11-18_06:06:51.77761 Accepted publickey for git from 172.25.0.5 port 50260 ssh2: RSA SHA256:f6soDZJdQmZcu8AfFwW/pm5lslanUn9xrrp2RNw+aWs
+2019-11-18_06:06:51.96939 Received disconnect from 172.25.0.5 port 50260:11: disconnected by user
+2019-11-18_06:06:51.96942 Disconnected from 172.25.0.5 port 50260
+2019-11-18_06:07:25.14253 Accepted publickey for git from 172.25.0.5 port 50274 ssh2: RSA SHA256:f6soDZJdQmZcu8AfFwW/pm5lslanUn9xrrp2RNw+aWs
+2019-11-18_06:07:26.13635 Received disconnect from 172.25.0.5 port 50274:11: disconnected by user
+2019-11-18_06:07:26.13637 Disconnected from 172.25.0.5 port 50274
+2019-11-18_06:07:26.30525 Accepted publickey for git from 172.25.0.5 port 50280 ssh2: RSA SHA256:f6soDZJdQmZcu8AfFwW/pm5lslanUn9xrrp2RNw+aWs
+2019-11-18_06:07:26.82260 Received disconnect from 172.25.0.5 port 50280:11: disconnected by user
+2019-11-18_06:07:26.82262 Disconnected from 172.25.0.5 port 50280
+2019-11-18_06:08:42.34447 Accepted publickey for git from 172.25.0.5 port 50310 ssh2: RSA SHA256:f6soDZJdQmZcu8AfFwW/pm5lslanUn9xrrp2RNw+aWs
+2019-11-18_06:08:42.49934 Received disconnect from 172.25.0.5 port 50310:11: disconnected by user
+2019-11-18_06:08:42.49936 Disconnected from 172.25.0.5 port 50310
+2019-11-18_06:21:47.55963 Accepted publickey for git from 172.25.0.5 port 50494 ssh2: RSA SHA256:f6soDZJdQmZcu8AfFwW/pm5lslanUn9xrrp2RNw+aWs
+2019-11-18_06:21:48.01303 Received disconnect from 172.25.0.5 port 50494:11: disconnected by user
+2019-11-18_06:21:48.01305 Disconnected from 172.25.0.5 port 50494
+2019-11-18_06:26:18.99655 Accepted publickey for git from 172.25.0.5 port 50576 ssh2: RSA SHA256:f6soDZJdQmZcu8AfFwW/pm5lslanUn9xrrp2RNw+aWs
+2019-11-18_06:26:19.14751 Received disconnect from 172.25.0.5 port 50576:11: disconnected by user
+2019-11-18_06:26:19.14754 Disconnected from 172.25.0.5 port 50576
+2019-11-18_06:40:30.06049 Accepted publickey for git from 172.25.0.5 port 50792 ssh2: RSA SHA256:f6soDZJdQmZcu8AfFwW/pm5lslanUn9xrrp2RNw+aWs
+2019-11-18_06:40:30.57893 Received disconnect from 172.25.0.5 port 50792:11: disconnected by user
+2019-11-18_06:40:30.57895 Disconnected from 172.25.0.5 port 50792
+2019-11-18_06:41:50.39963 Accepted publickey for git from 172.25.0.5 port 50850 ssh2: RSA SHA256:f6soDZJdQmZcu8AfFwW/pm5lslanUn9xrrp2RNw+aWs
+2019-11-18_06:41:50.96522 Received disconnect from 172.25.0.5 port 50850:11: disconnected by user
+2019-11-18_06:41:50.96525 Disconnected from 172.25.0.5 port 50850
+2019-11-18_06:43:55.09674 Accepted publickey for git from 172.25.0.5 port 50894 ssh2: RSA SHA256:f6soDZJdQmZcu8AfFwW/pm5lslanUn9xrrp2RNw+aWs
+2019-11-18_06:43:55.55714 Received disconnect from 172.25.0.5 port 50894:11: disconnected by user
+2019-11-18_06:43:55.55715 Disconnected from 172.25.0.5 port 50894
+2019-11-18_06:44:23.52545 Accepted publickey for git from 172.25.0.5 port 50920 ssh2: RSA SHA256:f6soDZJdQmZcu8AfFwW/pm5lslanUn9xrrp2RNw+aWs
+2019-11-18_06:44:24.13432 Received disconnect from 172.25.0.5 port 50920:11: disconnected by user
+2019-11-18_06:44:24.13433 Disconnected from 172.25.0.5 port 50920
+2019-11-18_06:44:36.71672 Accepted publickey for git from 172.25.0.5 port 50932 ssh2: RSA SHA256:f6soDZJdQmZcu8AfFwW/pm5lslanUn9xrrp2RNw+aWs
+2019-11-18_06:44:37.21253 Received disconnect from 172.25.0.5 port 50932:11: disconnected by user
+2019-11-18_06:44:37.21256 Disconnected from 172.25.0.5 port 50932
+2019-11-18_06:49:03.08504 Accepted publickey for git from 172.25.0.5 port 51010 ssh2: RSA SHA256:f6soDZJdQmZcu8AfFwW/pm5lslanUn9xrrp2RNw+aWs
+2019-11-18_06:49:03.22487 Received disconnect from 172.25.0.5 port 51010:11: disconnected by user
+2019-11-18_06:49:03.22490 Disconnected from 172.25.0.5 port 51010
+2019-11-18_06:49:37.04097 Accepted publickey for git from 172.25.0.5 port 51036 ssh2: RSA SHA256:f6soDZJdQmZcu8AfFwW/pm5lslanUn9xrrp2RNw+aWs
+2019-11-18_06:49:37.56862 Received disconnect from 172.25.0.5 port 51036:11: disconnected by user
+2019-11-18_06:49:37.56864 Disconnected from 172.25.0.5 port 51036
+2019-11-18_06:50:47.95378 Accepted publickey for git from 172.25.0.5 port 51054 ssh2: RSA SHA256:f6soDZJdQmZcu8AfFwW/pm5lslanUn9xrrp2RNw+aWs
+2019-11-18_06:50:48.04733 Received disconnect from 172.25.0.5 port 51054:11: disconnected by user
+2019-11-18_06:50:48.04735 Disconnected from 172.25.0.5 port 51054
+2019-11-18_06:54:08.00724 Accepted publickey for git from 172.25.0.5 port 51118 ssh2: RSA SHA256:f6soDZJdQmZcu8AfFwW/pm5lslanUn9xrrp2RNw+aWs
+2019-11-18_06:54:08.11450 Received disconnect from 172.25.0.5 port 51118:11: disconnected by user
+2019-11-18_06:54:08.11453 Disconnected from 172.25.0.5 port 51118
+2019-11-18_07:23:59.75992 Accepted publickey for git from 172.25.0.1 port 44414 ssh2: RSA SHA256:CMXMRdJBDHYNn8ozZ9V+LQK2nfI1lsgGQLH3Su7NBco
+2019-11-18_07:24:00.69495 Received disconnect from 172.25.0.1 port 44414:11: disconnected by user
+2019-11-18_07:24:00.69498 Disconnected from 172.25.0.1 port 44414
+2019-11-18_07:27:38.40220 Accepted publickey for git from 172.25.0.1 port 44462 ssh2: RSA SHA256:CMXMRdJBDHYNn8ozZ9V+LQK2nfI1lsgGQLH3Su7NBco
+2019-11-18_07:27:38.51134 Received disconnect from 172.25.0.1 port 44462:11: disconnected by user
+2019-11-18_07:27:38.51136 Disconnected from 172.25.0.1 port 44462
+2019-11-18_07:27:52.04925 Accepted publickey for git from 172.25.0.1 port 44472 ssh2: RSA SHA256:CMXMRdJBDHYNn8ozZ9V+LQK2nfI1lsgGQLH3Su7NBco
+2019-11-18_07:27:52.80314 Received disconnect from 172.25.0.1 port 44472:11: disconnected by user
+2019-11-18_07:27:52.80317 Disconnected from 172.25.0.1 port 44472
+2019-11-18_07:28:03.14362 Accepted publickey for git from 172.25.0.1 port 44482 ssh2: RSA SHA256:CMXMRdJBDHYNn8ozZ9V+LQK2nfI1lsgGQLH3Su7NBco
+2019-11-18_07:28:03.64874 Received disconnect from 172.25.0.1 port 44482:11: disconnected by user
+2019-11-18_07:28:03.64876 Disconnected from 172.25.0.1 port 44482
+2019-11-18_07:28:40.44977 Accepted publickey for git from 172.25.0.1 port 44496 ssh2: RSA SHA256:CMXMRdJBDHYNn8ozZ9V+LQK2nfI1lsgGQLH3Su7NBco
+2019-11-18_07:28:40.83950 Received disconnect from 172.25.0.1 port 44496:11: disconnected by user
+2019-11-18_07:28:40.83952 Disconnected from 172.25.0.1 port 44496
+2019-11-18_08:48:36.61571 Received signal 15; terminating.

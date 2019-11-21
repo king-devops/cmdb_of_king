@@ -1,0 +1,39 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-11-19 12:03:11.345 UTC</timestamp>
+  <original>
+    <name>pipeline-docker-cmdb</name>
+    <number>2</number>
+  </original>
+  <md5sum>f6a0f3bb27222de5f995a7079600c78a</md5sum>
+  <fileName>Docker image sha256:f6a0f3bb27222de5f995a7079600c78a2b4285d7dfe48ac16f7172a1305c2a30</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.15">
+      <timestamp>1574164991348</timestamp>
+      <imageId>sha256:f6a0f3bb27222de5f995a7079600c78a2b4285d7dfe48ac16f7172a1305c2a30</imageId>
+      <usages>
+        <entry>
+          <string>pipeline-docker-cmdb</string>
+          <ranges>2,5</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>6e15d0fd71d9</host>
+          <containerId>6e15d0fd71d9ea6d4fc21a0f752c42f1c467f6e8a16acfa5dd4da5a47763d571</containerId>
+          <containerName>/inspiring_bhaskara</containerName>
+          <created>1574164990000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>cfd815341112</host>
+          <containerId>cfd815341112e70b6e9b2e0e7ee8bcacfd8374073d6e241ecbf8c94e291afe90</containerId>
+          <containerName>/jovial_dewdney</containerName>
+          <created>1574167734000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>

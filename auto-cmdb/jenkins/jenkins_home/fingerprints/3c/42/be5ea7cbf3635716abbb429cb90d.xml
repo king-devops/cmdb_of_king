@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-11-15 12:57:27.671 UTC</timestamp>
+  <md5sum>3c42be5ea7cbf3635716abbb429cb90d</md5sum>
+  <fileName>junit:junit-4.11.jar</fileName>
+  <usages>
+    <entry>
+      <string>maven-hello/com.mycompany.app:my-app</string>
+      <ranges>2,4</ranges>
+    </entry>
+    <entry>
+      <string>maven-hello</string>
+      <ranges>2,4</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

@@ -1,0 +1,43 @@
+# Logfile created on 2019-11-18 09:43:17 +0000 by logger.rb/66358
+[2019-11-18T09:43:17+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /opt/gitlab/embedded
+  One version per cookbook
+
+[2019-11-18T09:43:17+00:00] INFO: *** Chef 14.13.11 ***
+[2019-11-18T09:43:17+00:00] INFO: Platform: x86_64-linux
+[2019-11-18T09:43:17+00:00] INFO: Chef-client pid: 25
+[2019-11-18T09:43:17+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2019-11-18T09:43:18+00:00] WARN: Plugin Network: unable to detect ipaddress
+[2019-11-18T09:43:20+00:00] INFO: Setting the run_list to ["recipe[gitlab]"] from CLI options
+[2019-11-18T09:43:20+00:00] INFO: Run List is [recipe[gitlab]]
+[2019-11-18T09:43:20+00:00] INFO: Run List expands to [gitlab]
+[2019-11-18T09:43:20+00:00] INFO: Starting Chef Run for gitlab.king.com
+[2019-11-18T09:43:20+00:00] INFO: Running start handlers
+[2019-11-18T09:43:20+00:00] INFO: Start handlers complete.
+[2019-11-18T09:43:21+00:00] INFO: Loading cookbooks [gitlab@0.0.1, package@0.1.0, postgresql@0.1.0, redis@0.1.0, monitoring@0.1.0, registry@0.1.0, mattermost@0.1.0, consul@0.1.0, gitaly@0.1.0, praefect@0.1.0, letsencrypt@0.1.0, nginx@0.1.0, runit@4.3.0, acme@4.0.0, crond@0.1.0]
+[2019-11-18T09:43:29+00:00] INFO: Skipped selecting an init system because it was explicitly disabled
+[2019-11-18T09:43:31+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2019-11-18T09:43:33+00:00] INFO: link[/opt/gitlab/service/redis] created
+[2019-11-18T09:43:33+00:00] INFO: link[/opt/gitlab/service/gitaly] created
+[2019-11-18T09:43:33+00:00] INFO: link[/opt/gitlab/service/postgresql] created
+[2019-11-18T09:43:34+00:00] INFO: file[/opt/gitlab/sv/postgresql/supervise/status] owner changed to 996
+[2019-11-18T09:43:34+00:00] INFO: file[/opt/gitlab/sv/postgresql/supervise/status] group changed to 996
+[2019-11-18T09:43:34+00:00] INFO: file[/opt/gitlab/sv/postgresql/supervise/status] updated atime and mtime to 2019-11-18 09:43:34 +0000
+[2019-11-18T09:43:34+00:00] INFO: file[/opt/gitlab/sv/postgresql/log/supervise/status] owner changed to 996
+[2019-11-18T09:43:34+00:00] INFO: file[/opt/gitlab/sv/postgresql/log/supervise/status] group changed to 996
+[2019-11-18T09:43:34+00:00] INFO: file[/opt/gitlab/sv/postgresql/log/supervise/status] updated atime and mtime to 2019-11-18 09:43:34 +0000
+[2019-11-18T09:43:34+00:00] INFO: bash[set ownership of old migration log files] ran successfully
+[2019-11-18T09:43:34+00:00] INFO: link[/opt/gitlab/service/unicorn] created
+[2019-11-18T09:43:34+00:00] INFO: link[/opt/gitlab/service/sidekiq] created
+[2019-11-18T09:43:34+00:00] INFO: link[/opt/gitlab/service/gitlab-workhorse] created
+[2019-11-18T09:43:35+00:00] INFO: link[/opt/gitlab/service/nginx] created
+[2019-11-18T09:43:35+00:00] INFO: link[/opt/gitlab/service/logrotate] created
+[2019-11-18T09:43:35+00:00] INFO: link[/opt/gitlab/service/gitlab-exporter] created
+[2019-11-18T09:43:35+00:00] INFO: link[/opt/gitlab/service/redis-exporter] created
+[2019-11-18T09:43:35+00:00] INFO: link[/opt/gitlab/service/prometheus] created
+[2019-11-18T09:43:35+00:00] INFO: link[/opt/gitlab/service/alertmanager] created
+[2019-11-18T09:43:35+00:00] INFO: link[/opt/gitlab/service/postgres-exporter] created
+[2019-11-18T09:43:35+00:00] INFO: ruby_block[populate Grafana configuration options] called
+[2019-11-18T09:43:35+00:00] INFO: link[/opt/gitlab/service/grafana] created
+[2019-11-18T09:43:36+00:00] INFO: Chef Run complete in 15.685237991 seconds
+[2019-11-18T09:43:36+00:00] INFO: Running report handlers
+[2019-11-18T09:43:36+00:00] INFO: Report handlers complete

@@ -1,0 +1,144 @@
+{%  extends  'base.html'  %}
+
+{% block path %}
+<h1>
+    Data Table
+    <small>advanced tables</small>
+</h1>
+<ol class="breadcrumb">
+    <li><a href="/"><i class="fa fa-dashboard"></i> Home</a></li>
+    <li class="active">Asset tables</li>
+</ol>
+{% endblock %}
+
+{%  block  content  %}
+{% verbatim %}
+<div class="row details" id="app">
+    <div class="col-xs-12">
+        <div class="box">
+            <div class="box-header">
+                <h3 class="box-title">资产表</h3>
+            </div>
+            <!--  /.box-header  -->
+            <div class="box-body">
+                <div id="example2_wrapper" class="dataTables_wrapper  form-inline  dt-bootstrap">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <table id="example2" class="table  table-bordered  table-hover  dataTable" role="grid"
+                                aria-describedby="example2_info">
+                                <thead>
+                                    <tr role="row">
+                                        <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1"
+                                            colspan="1" aria-label="CSS  grade:  activate  to  sort  column  ascending">
+                                            ID</th>
+                                        <th class="sorting_asc" tabindex="0" aria-controls="example2" rowspan="1"
+                                            colspan="1" aria-sort="ascending"
+                                            aria-label="Rendering  engine:  activate  to  sort  column  descending">
+                                            机柜</th>
+                                        <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1"
+                                            colspan="1" aria-label="Browser:  activate  to  sort  column  ascending">
+                                            设备类型</th>
+                                        <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1"
+                                            colspan="1" aria-label="Browser:  activate  to  sort  column  ascending">
+                                            设备状态</th>
+                                        <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1"
+                                            colspan="1"
+                                            aria-label="Platform(s):  activate  to  sort  column  ascending">
+                                            创建时间</th>
+                                        <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1"
+                                            colspan="1"
+                                            aria-label="Engine  version:  activate  to  sort  column  ascending">
+                                            更新时间</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    <tr v-for="item in assets.results" :key="" role="row" class="odd">
+                                        <td>{{ item.id }}</td>
+                                        <td>{{ item.cabinet }}</td>
+                                        <td>{{ item.device_type }}</td>
+                                        <td>{{ item.device_status }}</td>
+                                        <td>{{ item.latest_date }}</td>
+                                        <td>{{ item.create_at }}</td>
+                                        <td><a href="#" @click="detail(item.id)">详情</a></td>
+                                    </tr>
+
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <th rowspan="1" colspan="1">ID</th>
+                                        <th rowspan="1" colspan="1">机柜</th>
+                                        <th rowspan="1" colspan="1">设备类型</th>
+                                        <th rowspan="1" colspan="1">设备状态</th>
+                                        <th rowspan="1" colspan="1">创建时间</th>
+                                        <th rowspan="1" colspan="1">更新时间</th>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <h3 class="dataTables_info">
+                                总计{{ assets.count }}条数据！
+                            </h3>
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="dataTables_paginate paging_simple_numbers" id="example2_paginate">
+                                <ul class="pagination">
+                                    <li class="paginate_button previous " id="example2_previous">
+                                        <a href="#" @click="getUrl(assets.links.previous_url)">Previous</a>
+                                    </li>
+                                    <li v-for="item in assets.links.page_links " class="paginate_button"
+                                        v-bind:class="{ active : item[2] }">
+                                        <a href="#" v-if="! item[3]" @click="getUrl(item[0])">{{ item[1] }}</a>
+                                        <a href="#" v-else>...</a>
+                                    </li>
+                                    <li class="paginate_button next" id="example2_next">
+                                        <a href="#" @click="getUrl(assets.links.next_url)">Next</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endverbatim %}
+{% endblock %}
+
+{% block script %}
+<script>
+    var app = new Vue({
+        el: "#app",
+        data: {
+            assets: [],
+        },
+        mounted() {
+            axios.get(
+                'http://127.0.0.1:8000/cmdb/assets/',
+            ).then(
+                res => {
+                    this.assets = res.data;
+                });
+        },
+        methods: {
+            getUrl: function (url) {
+                axios.get(
+                    url,
+                ).then(
+                    res => {
+                        this.assets = res.data;
+                    });
+            },
+            detail: function (item) {
+                    window.location.href = "http://127.0.0.1:8000/cmdb/assets-detail/" + item
+        //点击后路由跳转的  当前页跳转不打开新标签页  
+            }
+        }
+    })
+
+</script>
+{% endblock %}

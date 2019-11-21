@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: escoem
+Build-Jdk: 1.8.0_60
+Extension-Name: ansible
+Specification-Title: Ansible support in Jenkins
+Implementation-Title: ansible
+Implementation-Version: 1.0
+Group-Id: org.jenkins-ci.plugins
+Short-Name: ansible
+Long-Name: Jenkins Ansible plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Ansible+Plugin
+Compatible-Since-Version: 1.0
+Plugin-Version: 1.0
+Hudson-Version: 1.596.1
+Jenkins-Version: 1.596.1
+Plugin-Dependencies: workflow-step-api:1.10;resolution:=optional,crede
+ ntials:1.16.1,job-dsl:1.36;resolution:=optional,plain-credentials:1.4
+ ,ssh-credentials:1.10
+Plugin-Developers: Jean-Christophe Sirot:jcsirot:sirot@chelonix.com
+

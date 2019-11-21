@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-11-15 12:57:27.655 UTC</timestamp>
+  <original>
+    <name>maven-hello/com.mycompany.app:my-app</name>
+    <number>2</number>
+  </original>
+  <md5sum>3c32204f23a24985c1cf67a9d3278808</md5sum>
+  <fileName>com.mycompany.app:my-app:pom.xml</fileName>
+  <usages>
+    <entry>
+      <string>maven-hello/com.mycompany.app:my-app</string>
+      <ranges>2,4</ranges>
+    </entry>
+    <entry>
+      <string>maven-hello</string>
+      <ranges>2,4</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

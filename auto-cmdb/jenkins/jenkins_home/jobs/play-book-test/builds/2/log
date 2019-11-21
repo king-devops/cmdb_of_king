@@ -1,0 +1,18 @@
+Started by user [8mha:////4C5wxn62V2PKMWQP7OKYw+BB4TxXhQKg+iX9HYPoErnYAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/play-book-test
+[play-book-test] $ /usr/bin/ansible-playbook /tmp/test.yml -i cmdb_server, -l all -f 5
+ [WARNING]: Found variable using reserved name: port
+ [WARNING]: Found variable using reserved name: name
+
+PLAY [all] *********************************************************************
+
+TASK [test playbook for jenkins] ***********************************************
+ok: [cmdb_server] => {
+    "msg": "king 22"
+}
+
+PLAY RECAP *********************************************************************
+cmdb_server                : ok=1    changed=0    unreachable=0    failed=0   
+
+Finished: SUCCESS

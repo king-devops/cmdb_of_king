@@ -1,0 +1,1 @@
+2019/11/20 02:15:09 [error] 313#0: *1795 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: 10.0.122.100, request: "GET /help HTTP/1.1", upstream: "http://unix:/var/opt/gitlab/gitlab-workhorse/socket:/help", host: "localhost:9280"

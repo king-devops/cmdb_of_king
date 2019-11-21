@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  redis:
+    build: ./docker-cmdb/redis
+    restart: always
+    networks:
+       - jumpserver-test
+    container_name: "redis_server"
+    expose:
+      - "6379"
+networks:
+  jumpserver-test:

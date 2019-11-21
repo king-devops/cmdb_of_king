@@ -1,0 +1,4 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<net.uaznia.lukanus.hudson.plugins.gitparameter.GitParameterDefinition_-DescriptorImpl plugin="git-parameter@0.9.11">
+  <showNeedToCloneInformation>true</showNeedToCloneInformation>
+</net.uaznia.lukanus.hudson.plugins.gitparameter.GitParameterDefinition_-DescriptorImpl>

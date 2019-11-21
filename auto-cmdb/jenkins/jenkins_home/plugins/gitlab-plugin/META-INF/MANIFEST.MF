@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: markyjackson
+Build-Jdk: 1.8.0_202
+Extension-Name: gitlab-plugin
+Specification-Title: The Jenkins Plugins Parent POM Project
+Implementation-Title: gitlab-plugin
+Implementation-Version: 1.5.13
+Group-Id: org.jenkins-ci.plugins
+Short-Name: gitlab-plugin
+Long-Name: GitLab Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/GitLab+Plugin
+Compatible-Since-Version: 1.4.0
+Plugin-Version: 1.5.13
+Hudson-Version: 1.609.3
+Jenkins-Version: 1.609.3
+Plugin-Dependencies: matrix-project:1.10,plain-credentials:1.1;resolut
+ ion:=optional,git-client:1.19.0,workflow-step-api:2.16,workflow-job:1
+ .15,credentials:2.1.0,git:2.4.1,display-url-api:1.1.1
+Plugin-Developers: Marky Jackson:markyjackson-taulia:marky.r.jackson@g
+ mail.com
+

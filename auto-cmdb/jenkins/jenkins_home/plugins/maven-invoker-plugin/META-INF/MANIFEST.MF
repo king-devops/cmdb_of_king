@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: olamy
+Build-Jdk: 1.8.0_171
+Extension-Name: maven-invoker-plugin
+Specification-Title: Reports on Maven Invoker it tests
+Implementation-Title: maven-invoker-plugin
+Implementation-Version: 2.4
+Group-Id: org.jenkins-ci.plugins
+Short-Name: maven-invoker-plugin
+Long-Name: Jenkins Maven Invoker plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Maven+Invoker+Plugin
+Plugin-Version: 2.4
+Hudson-Version: 2.89.4
+Jenkins-Version: 2.89.4
+Plugin-Dependencies: workflow-api:2.22,workflow-step-api:2.12,mailer:1
+ .18,script-security:1.30,structs:1.7
+Plugin-Developers: 
+

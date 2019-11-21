@@ -1,0 +1,17 @@
+{
+	"ulid": "01DT32GGBAQE1P2E7ETTY96RQK",
+	"minTime": 1574164800000,
+	"maxTime": 1574172000000,
+	"stats": {
+		"numSamples": 5377393,
+		"numSeries": 16634,
+		"numChunks": 58063
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01DT32GGBAQE1P2E7ETTY96RQK"
+		]
+	},
+	"version": 1
+}

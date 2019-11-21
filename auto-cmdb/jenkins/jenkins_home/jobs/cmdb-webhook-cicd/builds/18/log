@@ -1,0 +1,33 @@
+Started by GitLab push by Administrator
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/cmdb-webhook-cicd
+using credential f346320a-1339-4887-bc6a-0ffbc603c561
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@gitlab_server:root/mycmdb.git # timeout=10
+Fetching upstream changes from git@gitlab_server:root/mycmdb.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 这是cmdb项目中gitlab的私钥
+ > git fetch --tags --force --progress -- git@gitlab_server:root/mycmdb.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+skipping resolution of commit remotes/origin/master, since it originates from another repository
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision fd85dc82ec9265d64368143ae23cde3a4feecb5c (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fd85dc82ec9265d64368143ae23cde3a4feecb5c # timeout=10
+Commit message: "111"
+ > git rev-list --no-walk fd85dc82ec9265d64368143ae23cde3a4feecb5c # timeout=10
+[cmdb-webhook-cicd] $ /bin/sh -xe /tmp/jenkins4813751059175425817.sh
++ ls /var/jenkins_home/workspace/cmdb-webhook-cicd
+adminIE
+apache-maven-3.6.2-bin.tar.gz
+auto_cmdb
+code.tar
++ cd /var/jenkins_home/workspace/cmdb-webhook-cicd
++ tar -cf code.tar ./adminIE ./apache-maven-3.6.2-bin.tar.gz ./auto_cmdb ./code.tar
+tar: ./code.tar: file is the archive; skipping
+SSH: Connecting from host [e9dfb595f32d]
+SSH: Connecting with configuration [auto_cmdb_1] ...
+ERROR: Exception when publishing, exception message [Failed to connect and initialize SSH connection. Message: [Failed to connect session for config [auto_cmdb_1]. Message [java.net.ConnectException: Operation timed out (Connection timed out)]]]
+Build step 'Send files or execute commands over SSH' changed build result to UNSTABLE
+Finished: UNSTABLE

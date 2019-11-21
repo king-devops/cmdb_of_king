@@ -1,0 +1,38 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.3">
+  <node class="cps.n.StepEndNode" plugin="workflow-cps@2.76">
+    <parentIds>
+      <string>19</string>
+    </parentIds>
+    <id>20</id>
+    <startId>3</startId>
+  </node>
+  <actions>
+    <wf.a.TimingAction plugin="workflow-api@2.37">
+      <startTime>1574133444240</startTime>
+    </wf.a.TimingAction>
+    <wf.a.ErrorAction plugin="workflow-api@2.37">
+      <error class="hudson.AbortException">
+        <detailMessage>No artifacts found that match the file pattern &quot;test.tar&quot;. Configuration error?</detailMessage>
+        <stackTrace>
+          <trace>hudson.tasks.ArtifactArchiver.perform(ArtifactArchiver.java:258)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.CoreStep$Execution.run(CoreStep.java:80)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.CoreStep$Execution.run(CoreStep.java:67)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.SynchronousNonBlockingStepExecution.lambda$start$0(SynchronousNonBlockingStepExecution.java:47)</trace>
+          <trace>java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)</trace>
+          <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+          <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</trace>
+          <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</trace>
+          <trace>java.lang.Thread.run(Thread.java:748)</trace>
+        </stackTrace>
+        <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+          <c class="list"/>
+          <list reference="../c"/>
+        </suppressedExceptions>
+      </error>
+    </wf.a.ErrorAction>
+    <wf.a.ErrorAction plugin="workflow-api@2.37">
+      <error class="hudson.AbortException" reference="../../wf.a.ErrorAction/error"/>
+    </wf.a.ErrorAction>
+  </actions>
+</Tag>

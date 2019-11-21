@@ -1,0 +1,14 @@
+2019-11-20_02:15:09.76438 t=2019-11-20T02:15:09+0000 lvl=info msg="Shutdown started" logger=server reason="System signal: terminated"
+2019-11-20_02:15:09.76944 t=2019-11-20T02:15:09+0000 lvl=info msg="Stopped PluginManager" logger=server reason="context canceled"
+2019-11-20_02:15:09.76945 t=2019-11-20T02:15:09+0000 lvl=info msg="Stopped CleanUpService" logger=server reason="context canceled"
+2019-11-20_02:15:09.77141 t=2019-11-20T02:15:09+0000 lvl=info msg="Stopped InternalMetricsService" logger=server reason="context canceled"
+2019-11-20_02:15:09.77255 t=2019-11-20T02:15:09+0000 lvl=info msg="Stopped RemoteCache" logger=server reason="context canceled"
+2019-11-20_02:15:09.77256 t=2019-11-20T02:15:09+0000 lvl=info msg="Stopped UsageStatsService" logger=server reason="context canceled"
+2019-11-20_02:15:09.77257 t=2019-11-20T02:15:09+0000 lvl=info msg="Stopped UserAuthTokenService" logger=server reason="context canceled"
+2019-11-20_02:15:09.77325 t=2019-11-20T02:15:09+0000 lvl=info msg="Stopped RenderingService" logger=server reason=nil
+2019-11-20_02:15:09.77326 t=2019-11-20T02:15:09+0000 lvl=info msg="Stopped TracingService" logger=server reason=nil
+2019-11-20_02:15:09.77327 t=2019-11-20T02:15:09+0000 lvl=info msg="Stopped provisioningServiceImpl" logger=server reason="context canceled"
+2019-11-20_02:15:09.77333 t=2019-11-20T02:15:09+0000 lvl=info msg="Stopped NotificationService" logger=server reason="context canceled"
+2019-11-20_02:15:09.77512 t=2019-11-20T02:15:09+0000 lvl=info msg="Stopped Stream Manager"
+2019-11-20_02:15:09.87671 t=2019-11-20T02:15:09+0000 lvl=info msg="Stopped HTTPServer" logger=server reason=nil
+2019-11-20_02:15:09.87682 t=2019-11-20T02:15:09+0000 lvl=eror msg="Server shutdown" logger=server reason="System signal: terminated"

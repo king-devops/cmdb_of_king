@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: bjerre
+Build-Jdk: 1.8.0_171
+Extension-Name: generic-webhook-trigger
+Specification-Title: Can receive any HTTP request, extract any values 
+ from JSON or XML and trigger a job with those values available as var
+ iables. Works with GitHub, GitLab, Bitbucket, Jira and many more.
+Implementation-Title: generic-webhook-trigger
+Implementation-Version: 1.63
+Group-Id: org.jenkins-ci.plugins
+Short-Name: generic-webhook-trigger
+Long-Name: Generic Webhook Trigger Plugin
+Url: https://github.com/jenkinsci/generic-webhook-trigger-plugin
+Plugin-Version: 1.63
+Hudson-Version: 2.7.4
+Jenkins-Version: 2.7.4
+Plugin-Dependencies: credentials:2.1.16,plain-credentials:1.2,structs:
+ 1.7
+Plugin-Developers: Tomas Bjerre:tomasbjerre:tomas.bjerre85@gmail.com
+

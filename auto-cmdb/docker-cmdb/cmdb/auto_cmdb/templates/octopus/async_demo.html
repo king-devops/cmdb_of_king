@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+
+{% block content %}
+内容
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <input type="text">
+        <span>
+            <button id="btn" class="btn btn-success">发送</button>
+        </span>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <button type="button" class="btn btn-danger" id="getTask">结果</button>
+        <div id="commRet">
+
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block script %}
+<script>
+    $(function () {
+        var task_id = ''
+        $("#btn").on("click", function () {
+            $("#commRet").empty()
+            let num = $(this).parent().siblings().first().val()
+            $.ajax({
+                url: '/octopus/async/',
+                type: "POST",
+                data: {
+                    "num": num,
+                    "csrfmiddlewaretoken": "{{ csrf_token }}"
+                },
+                dataType: 'json',
+                success: function (ret) {
+                    
+                    task_id = ret.task_id;
+                    foo(task_id)         
+            }
+            })
+        })
+    function  foo(task_id) {
+            var timer = setTimeout(function f(task_id){
+            $.ajax({
+                url: `/octopus/get_task/?task_id=${task_id}`,
+                type: "GET",
+                dataType: 'json',
+                success: function (task_ret) {
+                    if (task_ret.success){     
+                    $("#commRet").empty()
+                    $("#commRet").append(
+                        `<code>${task_ret.id}</code><code>${task_ret.status}</code>`
+                        )} else{
+                            tm = setTimeout(f(task_id),2000,task_id)
+                            }               
+            }
+            });
+        },2000,task_id);
+    }
+})
+</script>
+{% endblock %}

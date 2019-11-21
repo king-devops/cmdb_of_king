@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-11-19 12:49:05.229 UTC</timestamp>
+  <original>
+    <name>pipeline-docker-cmdb</name>
+    <number>5</number>
+  </original>
+  <md5sum>7151edd9722d9018867a987b06aba03c</md5sum>
+  <fileName>Docker image sha256:7151edd9722d9018867a987b06aba03cd1114c1c14ddb03e6b073f05178d1092</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.15">
+      <timestamp>1574167745232</timestamp>
+      <imageId>sha256:7151edd9722d9018867a987b06aba03cd1114c1c14ddb03e6b073f05178d1092</imageId>
+      <usages>
+        <entry>
+          <string>pipeline-docker-cmdb</string>
+          <ranges>5</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>183678543c9b</host>
+          <containerId>183678543c9bd7d6c2e51cff8857a8630208abcbb449e3e7476543be7d93a721</containerId>
+          <containerName>/keen_villani</containerName>
+          <created>1574167744000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>

@@ -1,0 +1,57 @@
+2019-11-16_08:41:12.02396 245:M 16 Nov 08:41:12.023 * 10 changes in 300 seconds. Saving...
+2019-11-16_08:41:12.02447 245:M 16 Nov 08:41:12.024 * Background saving started by pid 19091
+2019-11-16_08:41:12.03199 19091:C 16 Nov 08:41:12.031 * DB saved on disk
+2019-11-16_08:41:12.03268 19091:C 16 Nov 08:41:12.032 * RDB: 0 MB of memory used by copy-on-write
+2019-11-16_08:41:12.12489 245:M 16 Nov 08:41:12.124 * Background saving terminated with success
+2019-11-16_08:46:13.09131 245:M 16 Nov 08:46:13.091 * 10 changes in 300 seconds. Saving...
+2019-11-16_08:46:13.09163 245:M 16 Nov 08:46:13.091 * Background saving started by pid 19688
+2019-11-16_08:46:13.09755 19688:C 16 Nov 08:46:13.097 * DB saved on disk
+2019-11-16_08:46:13.09796 19688:C 16 Nov 08:46:13.097 * RDB: 0 MB of memory used by copy-on-write
+2019-11-16_08:46:13.19210 245:M 16 Nov 08:46:13.191 * Background saving terminated with success
+2019-11-16_08:51:14.07304 245:M 16 Nov 08:51:14.072 * 10 changes in 300 seconds. Saving...
+2019-11-16_08:51:14.07363 245:M 16 Nov 08:51:14.073 * Background saving started by pid 20271
+2019-11-16_08:51:14.08091 20271:C 16 Nov 08:51:14.080 * DB saved on disk
+2019-11-16_08:51:14.08164 20271:C 16 Nov 08:51:14.081 * RDB: 0 MB of memory used by copy-on-write
+2019-11-16_08:51:14.17413 245:M 16 Nov 08:51:14.173 * Background saving terminated with success
+2019-11-16_08:56:15.02821 245:M 16 Nov 08:56:15.028 * 10 changes in 300 seconds. Saving...
+2019-11-16_08:56:15.02852 245:M 16 Nov 08:56:15.028 * Background saving started by pid 20979
+2019-11-16_08:56:15.03584 20979:C 16 Nov 08:56:15.035 * DB saved on disk
+2019-11-16_08:56:15.03646 20979:C 16 Nov 08:56:15.036 * RDB: 0 MB of memory used by copy-on-write
+2019-11-16_08:56:15.12936 245:M 16 Nov 08:56:15.129 * Background saving terminated with success
+2019-11-16_09:01:16.09997 245:M 16 Nov 09:01:16.099 * 10 changes in 300 seconds. Saving...
+2019-11-16_09:01:16.10058 245:M 16 Nov 09:01:16.100 * Background saving started by pid 21844
+2019-11-16_09:01:16.11337 21844:C 16 Nov 09:01:16.113 * DB saved on disk
+2019-11-16_09:01:16.11402 21844:C 16 Nov 09:01:16.113 * RDB: 0 MB of memory used by copy-on-write
+2019-11-16_09:01:16.20095 245:M 16 Nov 09:01:16.200 * Background saving terminated with success
+2019-11-16_09:06:17.03247 245:M 16 Nov 09:06:17.032 * 10 changes in 300 seconds. Saving...
+2019-11-16_09:06:17.03275 245:M 16 Nov 09:06:17.032 * Background saving started by pid 22422
+2019-11-16_09:06:17.04290 22422:C 16 Nov 09:06:17.042 * DB saved on disk
+2019-11-16_09:06:17.04340 22422:C 16 Nov 09:06:17.043 * RDB: 0 MB of memory used by copy-on-write
+2019-11-16_09:06:17.13312 245:M 16 Nov 09:06:17.133 * Background saving terminated with success
+2019-11-16_09:11:18.04992 245:M 16 Nov 09:11:18.049 * 10 changes in 300 seconds. Saving...
+2019-11-16_09:11:18.05061 245:M 16 Nov 09:11:18.050 * Background saving started by pid 23005
+2019-11-16_09:11:18.07316 23005:C 16 Nov 09:11:18.072 * DB saved on disk
+2019-11-16_09:11:18.07379 23005:C 16 Nov 09:11:18.073 * RDB: 0 MB of memory used by copy-on-write
+2019-11-16_09:11:18.15116 245:M 16 Nov 09:11:18.151 * Background saving terminated with success
+2019-11-16_09:16:19.05239 245:M 16 Nov 09:16:19.052 * 10 changes in 300 seconds. Saving...
+2019-11-16_09:16:19.05275 245:M 16 Nov 09:16:19.052 * Background saving started by pid 23610
+2019-11-16_09:16:19.06236 23610:C 16 Nov 09:16:19.062 * DB saved on disk
+2019-11-16_09:16:19.06302 23610:C 16 Nov 09:16:19.062 * RDB: 0 MB of memory used by copy-on-write
+2019-11-16_09:16:19.15302 245:M 16 Nov 09:16:19.152 * Background saving terminated with success
+2019-11-16_09:21:20.02260 245:M 16 Nov 09:21:20.022 * 10 changes in 300 seconds. Saving...
+2019-11-16_09:21:20.02305 245:M 16 Nov 09:21:20.022 * Background saving started by pid 24203
+2019-11-16_09:21:20.03437 24203:C 16 Nov 09:21:20.034 * DB saved on disk
+2019-11-16_09:21:20.03494 24203:C 16 Nov 09:21:20.034 * RDB: 0 MB of memory used by copy-on-write
+2019-11-16_09:21:20.12401 245:M 16 Nov 09:21:20.123 * Background saving terminated with success
+2019-11-16_09:26:21.02707 245:M 16 Nov 09:26:21.026 * 10 changes in 300 seconds. Saving...
+2019-11-16_09:26:21.02741 245:M 16 Nov 09:26:21.027 * Background saving started by pid 24779
+2019-11-16_09:26:21.03743 24779:C 16 Nov 09:26:21.037 * DB saved on disk
+2019-11-16_09:26:21.03786 24779:C 16 Nov 09:26:21.037 * RDB: 0 MB of memory used by copy-on-write
+2019-11-16_09:26:21.12777 245:M 16 Nov 09:26:21.127 * Background saving terminated with success
+2019-11-16_09:29:38.75117 245:signal-handler (1573896578) Received SIGTERM scheduling shutdown...
+2019-11-16_09:29:38.75948 245:M 16 Nov 09:29:38.759 # User requested shutdown...
+2019-11-16_09:29:38.75952 245:M 16 Nov 09:29:38.759 * Saving the final RDB snapshot before exiting.
+2019-11-16_09:29:38.77380 245:M 16 Nov 09:29:38.773 * DB saved on disk
+2019-11-16_09:29:38.77384 245:M 16 Nov 09:29:38.773 * Removing the pid file.
+2019-11-16_09:29:38.77387 245:M 16 Nov 09:29:38.773 * Removing the unix socket file.
+2019-11-16_09:29:38.77393 245:M 16 Nov 09:29:38.773 # Redis is now ready to exit, bye bye...

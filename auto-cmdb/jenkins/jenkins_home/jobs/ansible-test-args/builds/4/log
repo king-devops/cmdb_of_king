@@ -1,0 +1,30 @@
+Started by user [8mha:////4C5wxn62V2PKMWQP7OKYw+BB4TxXhQKg+iX9HYPoErnYAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/ansible-test-args
+using credential f346320a-1339-4887-bc6a-0ffbc603c561
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@gitlab_server:root/mycmdb.git # timeout=10
+Fetching upstream changes from git@gitlab_server:root/mycmdb.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 这是cmdb项目中gitlab的私钥
+ > git fetch --tags --force --progress -- git@gitlab_server:root/mycmdb.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision fd85dc82ec9265d64368143ae23cde3a4feecb5c (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fd85dc82ec9265d64368143ae23cde3a4feecb5c # timeout=10
+Commit message: "111"
+ > git rev-list --no-walk fd85dc82ec9265d64368143ae23cde3a4feecb5c # timeout=10
+[ansible-test-args] $ /bin/sh -xe /tmp/jenkins6879247363805361802.sh
++ echo '本次构建的版本是 3.0'
+本次构建的版本是 3.0
++ echo '本次选择的 gitlab 分支是 origin/dev'
+本次选择的 gitlab 分支是 origin/dev
++ echo '本次选择部署的主机组是 prod'
+本次选择部署的主机组是 prod
+[ansible-test-args] $ /usr/bin/ansible prod -i /etc/ansible/hosts -m debug -a msg={{name}} -f 5
+auto-cmdb_cmdb_1 | SUCCESS => {
+    "msg": "prod-king"
+}
+Finished: SUCCESS

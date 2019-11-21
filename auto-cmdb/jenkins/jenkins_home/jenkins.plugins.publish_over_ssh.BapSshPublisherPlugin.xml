@@ -1,0 +1,86 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.plugins.publish__over__ssh.BapSshPublisherPlugin_-Descriptor plugin="publish-over-ssh@1.20.1">
+  <hostConfigurations>
+    <jenkins.plugins.publish__over__ssh.BapSshHostConfiguration>
+      <name>auto_cmdb_1</name>
+      <hostname>192.168.64.5</hostname>
+      <username>root</username>
+      <secretPassword>{AQAAABAAAAAQvvAMjJRIlZwUiXXByBHikktXdGv3VZVeuq7Ji1KpRP0=}</secretPassword>
+      <remoteRootDir>/app/code</remoteRootDir>
+      <port>22</port>
+      <commonConfig class="jenkins.plugins.publish_over_ssh.BapSshCommonConfiguration">
+        <secretPassphrase>{AQAAABAAAAAQQu7o820sObdRKhBrCwZH4pZQ+M9AuDXjikyDOgvfL3E=}</secretPassphrase>
+        <key>-----BEGIN RSA PRIVATE KEY-----
+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
+-----END RSA PRIVATE KEY-----
+</key>
+        <keyPath></keyPath>
+        <disableAllExec>false</disableAllExec>
+      </commonConfig>
+      <timeout>300000</timeout>
+      <overrideKey>false</overrideKey>
+      <disableExec>false</disableExec>
+      <keyInfo>
+        <secretPassphrase>{AQAAABAAAAAQxgCcprq1k7E+dffIWJl0s0d8N4s4RAJe8atQnuqTIXw=}</secretPassphrase>
+        <key></key>
+        <keyPath></keyPath>
+      </keyInfo>
+      <jumpHost></jumpHost>
+      <proxyType></proxyType>
+      <proxyHost></proxyHost>
+      <proxyPort>0</proxyPort>
+      <proxyUser></proxyUser>
+      <proxyPassword></proxyPassword>
+    </jenkins.plugins.publish__over__ssh.BapSshHostConfiguration>
+  </hostConfigurations>
+  <commonConfig reference="../hostConfigurations/jenkins.plugins.publish__over__ssh.BapSshHostConfiguration/commonConfig"/>
+  <defaults class="jenkins.plugins.publish_over_ssh.options.SshPluginDefaults"/>
+</jenkins.plugins.publish__over__ssh.BapSshPublisherPlugin_-Descriptor>

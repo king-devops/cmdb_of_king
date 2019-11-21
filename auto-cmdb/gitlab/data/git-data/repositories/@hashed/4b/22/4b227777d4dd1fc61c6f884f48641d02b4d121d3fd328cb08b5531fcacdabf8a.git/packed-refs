@@ -1,0 +1,7 @@
+# pack-refs with: peeled fully-peeled sorted 
+572422f5611e68026770e0b3fd0ffbe29ef98ccb refs/heads/dev
+b762412a1fbdf58b9dfe750bbe8ee2c7861befa0 refs/heads/master
+66d969fd6966fa31adf6482c2d5b4f4b675e65a0 refs/heads/wgy
+2bfe4ef908e95ca0a2cdfe3384e05df2fdb70b99 refs/keep-around/2bfe4ef908e95ca0a2cdfe3384e05df2fdb70b99
+572422f5611e68026770e0b3fd0ffbe29ef98ccb refs/keep-around/572422f5611e68026770e0b3fd0ffbe29ef98ccb
+7b9a62f7ecd7815e8b8d3878f62262f9ec642779 refs/keep-around/7b9a62f7ecd7815e8b8d3878f62262f9ec642779

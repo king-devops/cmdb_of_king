@@ -1,0 +1,6 @@
+{"level":"info","msg":"Starting","time":"2019-11-19T00:47:49Z","version":"gitlab-workhorse v8.14.0-20191104.154533"}
+{"level":"info","msg":"keywatcher: starting process loop","time":"2019-11-19T00:47:49Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2019-11-19T00:47:49Z"}
+{"correlation_id":"9qeUy9ta2J4","error":"badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"error","time":"2019-11-19T00:48:24Z","uri":"/help"}
+{"correlation_id":"9qeUy9ta2J4","duration_ms":10,"host":"localhost:9280","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","status":502,"system":"http","time":"2019-11-19T00:48:24Z","uri":"/help","user_agent":"curl/7.59.0-DEV","written_bytes":2940}
+{"correlation_id":"zlmZP6nRNg6","duration_ms":885,"host":"localhost:9280","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","status":200,"system":"http","time":"2019-11-19T00:49:25Z","uri":"/help","user_agent":"curl/7.59.0-DEV","written_bytes":83409}

@@ -1,0 +1,10 @@
+2019-11-20_02:15:11.44020 received TERM from runit, sending INT instead to force quit connections
+2019-11-20_02:15:11.44281 LOG:  received fast shutdown request
+2019-11-20_02:15:11.44682 LOG:  aborting any active transactions
+2019-11-20_02:15:11.44890 FATAL:  terminating connection due to administrator command
+2019-11-20_02:15:11.44892 FATAL:  terminating connection due to administrator command
+2019-11-20_02:15:11.44892 FATAL:  terminating connection due to administrator command
+2019-11-20_02:15:11.45058 FATAL:  terminating connection due to administrator command
+2019-11-20_02:15:11.45130 LOG:  worker process: logical replication launcher (PID 345) exited with exit code 1
+2019-11-20_02:15:11.45687 LOG:  shutting down
+2019-11-20_02:15:11.47419 LOG:  database system is shut down

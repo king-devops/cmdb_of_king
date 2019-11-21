@@ -1,0 +1,60 @@
+{"level":"info","msg":"Wrapper started","time":"2019-11-14T08:31:57Z","wrapper":420}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2019-11-14T08:31:57Z","wrapper":420}
+{"level":"info","msg":"spawning a process","time":"2019-11-14T08:31:57Z","wrapper":420}
+{"gitaly":427,"level":"info","msg":"monitoring gitaly","time":"2019-11-14T08:31:57Z","wrapper":420}
+time="2019-11-14T08:31:57Z" level=info msg="Starting Gitaly" version="Gitaly, version 1.67.0"
+time="2019-11-14T08:31:57Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2019-11-14T08:31:57Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2019-11-14T08:31:57Z" level=info msg="clearing disk cache object folder" storage=default
+time="2019-11-14T08:31:57Z" level=info msg="moving disk cache object folder to /var/opt/gitlab/git-data/repositories/+gitaly/tmp/diskcache091772432" storage=default
+time="2019-11-14T08:31:57Z" level=info msg="disk cache object folder doesn't exist, no need to remove" storage=default
+time="2019-11-14T08:31:57Z" level=info msg="Starting file walker for /var/opt/gitlab/git-data/repositories/+gitaly/cache" storage=default
+time="2019-11-14T08:31:57Z" level=info msg="Starting file walker for /var/opt/gitlab/git-data/repositories/+gitaly/state" storage=default
+{"level":"info","msg":"finished tempdir cleaner walk","storage":"default","time":"2019-11-14T08:31:57Z","time_ms":0}
+{"address":"/var/opt/gitlab/gitaly/gitaly.socket","level":"info","msg":"listening at unix address","time":"2019-11-14T08:31:57Z"}
+{"address":"localhost:9236","level":"info","msg":"starting prometheus listener","time":"2019-11-14T08:31:57Z"}
+{"level":"warning","msg":"spawned","supervisor.args":["bundle","exec","bin/ruby-cd","/var/opt/gitlab/gitaly","/opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby","427","/tmp/gitaly-ruby867591225/socket.0"],"supervisor.name":"gitaly-ruby.0","supervisor.pid":448,"time":"2019-11-14T08:31:57Z"}
+{"level":"info","msg":"starting RSS monitor","supervisor.name":"gitaly-ruby.1","supervisor.rss_threshold":209715200,"time":"2019-11-14T08:31:57Z"}
+{"level":"info","msg":"starting RSS monitor","supervisor.name":"gitaly-ruby.0","supervisor.rss_threshold":209715200,"time":"2019-11-14T08:31:57Z"}
+{"level":"warning","msg":"spawned","supervisor.args":["bundle","exec","bin/ruby-cd","/var/opt/gitlab/gitaly","/opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby","427","/tmp/gitaly-ruby867591225/socket.1"],"supervisor.name":"gitaly-ruby.1","supervisor.pid":449,"time":"2019-11-14T08:31:57Z"}
+{"level":"info","msg":"PID 449 BUNDLE_GEMFILE=/opt/gitlab/embedded/service/gitaly-ruby/Gemfile","supervisor.args":["bundle","exec","bin/ruby-cd","/var/opt/gitlab/gitaly","/opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby","427","/tmp/gitaly-ruby867591225/socket.1"],"supervisor.name":"gitaly-ruby.1","time":"2019-11-14T08:31:58Z"}
+{"level":"info","msg":"PID 448 BUNDLE_GEMFILE=/opt/gitlab/embedded/service/gitaly-ruby/Gemfile","supervisor.args":["bundle","exec","bin/ruby-cd","/var/opt/gitlab/gitaly","/opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby","427","/tmp/gitaly-ruby867591225/socket.0"],"supervisor.name":"gitaly-ruby.0","time":"2019-11-14T08:31:58Z"}
+{"gitaly":427,"level":"warning","msg":"forwarding signal","signal":15,"time":"2019-11-14T08:34:34Z","wrapper":420}
+{"gitaly":427,"level":"warning","msg":"forwarding signal","signal":18,"time":"2019-11-14T08:34:34Z","wrapper":420}
+{"error":"signal: killed","level":"warning","msg":"exited","supervisor.args":["bundle","exec","bin/ruby-cd","/var/opt/gitlab/gitaly","/opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby","427","/tmp/gitaly-ruby867591225/socket.0"],"supervisor.name":"gitaly-ruby.0","time":"2019-11-14T08:34:34Z"}
+{"error":"signal: killed","level":"warning","msg":"exited","supervisor.args":["bundle","exec","bin/ruby-cd","/var/opt/gitlab/gitaly","/opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby","427","/tmp/gitaly-ruby867591225/socket.1"],"supervisor.name":"gitaly-ruby.1","time":"2019-11-14T08:34:34Z"}
+{"error":"received signal \"terminated\"","level":"error","msg":"shutting down","time":"2019-11-14T08:34:34Z"}
+{"gitaly":427,"level":"warning","msg":"forwarding signal","signal":17,"time":"2019-11-14T08:34:34Z","wrapper":420}
+{"error":"os: process already finished","gitaly":427,"level":"error","msg":"can't forward the signal","signal":17,"time":"2019-11-14T08:34:34Z","wrapper":420}
+{"gitaly":427,"level":"error","msg":"wrapper for gitaly shutting down","time":"2019-11-14T08:34:34Z","wrapper":420}
+{"level":"info","msg":"Wrapper started","time":"2019-11-14T08:34:34Z","wrapper":1177}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2019-11-14T08:34:34Z","wrapper":1177}
+{"level":"info","msg":"spawning a process","time":"2019-11-14T08:34:34Z","wrapper":1177}
+{"gitaly":1184,"level":"info","msg":"monitoring gitaly","time":"2019-11-14T08:34:34Z","wrapper":1177}
+time="2019-11-14T08:34:34Z" level=info msg="Starting Gitaly" version="Gitaly, version 1.67.0"
+time="2019-11-14T08:34:34Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2019-11-14T08:34:34Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2019-11-14T08:34:34Z" level=info msg="clearing disk cache object folder" storage=default
+time="2019-11-14T08:34:34Z" level=info msg="moving disk cache object folder to /var/opt/gitlab/git-data/repositories/+gitaly/tmp/diskcache473707055" storage=default
+time="2019-11-14T08:34:34Z" level=info msg="disk cache object folder doesn't exist, no need to remove" storage=default
+time="2019-11-14T08:34:34Z" level=info msg="Starting file walker for /var/opt/gitlab/git-data/repositories/+gitaly/cache" storage=default
+time="2019-11-14T08:34:34Z" level=info msg="Starting file walker for /var/opt/gitlab/git-data/repositories/+gitaly/state" storage=default
+{"gitaly":1184,"level":"warning","msg":"forwarding signal","signal":1,"time":"2019-11-14T08:34:34Z","wrapper":1177}
+time="2019-11-14T08:34:34Z" level=error msg="Upgrade failed" error="process is not ready yet"
+{"level":"info","msg":"finished tempdir cleaner walk","storage":"default","time":"2019-11-14T08:34:34Z","time_ms":0}
+{"address":"/var/opt/gitlab/gitaly/gitaly.socket","level":"info","msg":"listening at unix address","time":"2019-11-14T08:34:34Z"}
+{"address":"localhost:9236","level":"info","msg":"starting prometheus listener","time":"2019-11-14T08:34:34Z"}
+{"level":"info","msg":"starting RSS monitor","supervisor.name":"gitaly-ruby.0","supervisor.rss_threshold":209715200,"time":"2019-11-14T08:34:34Z"}
+{"level":"info","msg":"starting RSS monitor","supervisor.name":"gitaly-ruby.1","supervisor.rss_threshold":209715200,"time":"2019-11-14T08:34:34Z"}
+{"level":"warning","msg":"spawned","supervisor.args":["bundle","exec","bin/ruby-cd","/var/opt/gitlab/gitaly","/opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby","1184","/tmp/gitaly-ruby928328249/socket.1"],"supervisor.name":"gitaly-ruby.1","supervisor.pid":1213,"time":"2019-11-14T08:34:34Z"}
+{"level":"warning","msg":"spawned","supervisor.args":["bundle","exec","bin/ruby-cd","/var/opt/gitlab/gitaly","/opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby","1184","/tmp/gitaly-ruby928328249/socket.0"],"supervisor.name":"gitaly-ruby.0","supervisor.pid":1217,"time":"2019-11-14T08:34:34Z"}
+{"level":"info","msg":"PID 1217 BUNDLE_GEMFILE=/opt/gitlab/embedded/service/gitaly-ruby/Gemfile","supervisor.args":["bundle","exec","bin/ruby-cd","/var/opt/gitlab/gitaly","/opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby","1184","/tmp/gitaly-ruby928328249/socket.0"],"supervisor.name":"gitaly-ruby.0","time":"2019-11-14T08:34:35Z"}
+{"level":"info","msg":"PID 1213 BUNDLE_GEMFILE=/opt/gitlab/embedded/service/gitaly-ruby/Gemfile","supervisor.args":["bundle","exec","bin/ruby-cd","/var/opt/gitlab/gitaly","/opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby","1184","/tmp/gitaly-ruby928328249/socket.1"],"supervisor.name":"gitaly-ruby.1","time":"2019-11-14T08:34:35Z"}
+{"gitaly":1184,"level":"warning","msg":"forwarding signal","signal":15,"time":"2019-11-14T08:36:30Z","wrapper":1177}
+{"gitaly":1184,"level":"warning","msg":"forwarding signal","signal":18,"time":"2019-11-14T08:36:30Z","wrapper":1177}
+{"error":"signal: killed","level":"warning","msg":"exited","supervisor.args":["bundle","exec","bin/ruby-cd","/var/opt/gitlab/gitaly","/opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby","1184","/tmp/gitaly-ruby928328249/socket.0"],"supervisor.name":"gitaly-ruby.0","time":"2019-11-14T08:36:30Z"}
+{"error":"signal: killed","level":"warning","msg":"exited","supervisor.args":["bundle","exec","bin/ruby-cd","/var/opt/gitlab/gitaly","/opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby","1184","/tmp/gitaly-ruby928328249/socket.1"],"supervisor.name":"gitaly-ruby.1","time":"2019-11-14T08:36:30Z"}
+{"error":"received signal \"terminated\"","level":"error","msg":"shutting down","time":"2019-11-14T08:36:30Z"}
+{"gitaly":1184,"level":"warning","msg":"forwarding signal","signal":17,"time":"2019-11-14T08:36:30Z","wrapper":1177}
+{"error":"os: process already finished","gitaly":1184,"level":"error","msg":"can't forward the signal","signal":17,"time":"2019-11-14T08:36:30Z","wrapper":1177}
+{"gitaly":1184,"level":"error","msg":"wrapper for gitaly shutting down","time":"2019-11-14T08:36:31Z","wrapper":1177}

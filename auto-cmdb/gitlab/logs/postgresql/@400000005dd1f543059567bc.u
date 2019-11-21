@@ -1,0 +1,14 @@
+2019-11-18_01:27:01.34506 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2019-11-18_01:27:01.42762 LOG:  database system was shut down at 2019-11-18 01:26:18 GMT
+2019-11-18_01:27:01.47828 LOG:  database system is ready to accept connections
+2019-11-18_01:33:20.12269 received TERM from runit, sending INT instead to force quit connections
+2019-11-18_01:33:20.12417 LOG:  received fast shutdown request
+2019-11-18_01:33:20.12898 LOG:  aborting any active transactions
+2019-11-18_01:33:20.13186 FATAL:  terminating connection due to administrator command
+2019-11-18_01:33:20.13190 FATAL:  terminating connection due to administrator command
+2019-11-18_01:33:20.13190 FATAL:  terminating connection due to administrator command
+2019-11-18_01:33:20.13259 LOG:  worker process: logical replication launcher (PID 398) exited with exit code 1
+2019-11-18_01:33:20.13334 FATAL:  terminating connection due to administrator command
+2019-11-18_01:33:20.13469 FATAL:  terminating connection due to administrator command
+2019-11-18_01:33:20.13619 LOG:  shutting down
+2019-11-18_01:33:20.15441 LOG:  database system is shut down

@@ -1,0 +1,105 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+{% verbatim %}
+<div class="row" id="app">
+    <h1>服务器详情</h1>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>id</th>
+          <th>主机名</th>
+          <th>内核</th>
+          <th>操作系统</th>
+          <th>物理 CPU 颗数</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="active">
+            <td>{{ servers.id }}</td>
+            <td>{{ servers.hostname }}</td>
+            <td>{{ servers.kernel }}</td>
+            <td>{{ servers.os_name }}</td>
+            <td>{{ servers.physical_count }}</td>
+          </tr>
+        </tbody>
+    </table>
+    <div class="row">
+      <h1>内存表详情</h1>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>id</th>
+            <th>内存容量</th>
+            <th>插槽</th>
+            <th>内存类型</th>
+            <th>速率</th>
+            <th>内存厂商</th>
+            <th>产品序列号</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for  %}
+          <tr class="active" v-for="memorys in servers.memory" :key="">
+            <td>{{ memorys.id }}</td>
+            <td>{{ memorys.capacity }}</td>
+            <td>{{ memorys.slot }}</td>
+            <td>{{ memorys.model }}</td>
+            <td>{{ memorys.speed}}</td>
+            <td>{{ memorys.manufacturer }}</td>
+            <td>{{ memorys.sn }}</td>
+          </tr>
+
+        </tbody>
+      </table>
+      <div class="row">
+        <h1>硬盘详情</h1>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>id</th>
+              <th>插槽号</th>
+              <th>接口类型</th>
+              <th>原始磁盘大小</th>
+              <th>强制磁盘容量</th>
+            </tr>
+          </thead>
+          <tbody>
+
+            <tr class="active" v-for="disks in servers.disk"  :key="">
+              <th scope="row">{{ forloop.counter }}</th>
+              <td>{{ disks.id }}</td>
+              <td>{{ disks.slot}}</td>
+              <td>{{ disks.pd }}</td>
+              <td>{{ disks.raw }}</td>
+              <td>{{ disks.coreced}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+{% endverbatim %}
+{% endblock %}
+
+{% block script %}
+<script>
+    var app = new Vue({
+        el: "#app",
+        data: {
+            servers: [],
+        },
+        mounted() {
+            axios.get(
+                'http://127.0.0.1:8000/cmdb/detail/',
+            ).then(
+                res => {
+                    this.servers = res.data.server;
+                    console.log(servers)
+                });
+        },
+    })
+
+</script>
+{% endblock %}

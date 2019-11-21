@@ -1,0 +1,4 @@
+2019-11-16_09:29:35.34104 - Gracefully stopping, waiting for requests to finish
+2019-11-16_09:29:35.34364 === puma shutdown: 2019-11-16 09:29:35 +0000 ===
+2019-11-16_09:29:35.34364 - Goodbye!
+2019-11-16_09:29:35.34516 == Sinatra has ended his set (crowd applauds)

@@ -1,0 +1,8 @@
+{"level":"info","msg":"Starting","time":"2019-11-14T08:37:42Z","version":"gitlab-workhorse v8.14.0-20191104.154533"}
+{"level":"info","msg":"keywatcher: starting process loop","time":"2019-11-14T08:37:42Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2019-11-14T08:37:42Z"}
+{"correlation_id":"Gbagch8bYX4","error":"badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"error","time":"2019-11-14T08:37:52Z","uri":"/help"}
+{"correlation_id":"Gbagch8bYX4","duration_ms":3,"host":"localhost:9280","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","status":502,"system":"http","time":"2019-11-14T08:37:52Z","uri":"/help","user_agent":"curl/7.59.0-DEV","written_bytes":2940}
+{"level":"info","msg":"Starting","time":"2019-11-14T08:38:29Z","version":"gitlab-workhorse v8.14.0-20191104.154533"}
+{"level":"info","msg":"keywatcher: starting process loop","time":"2019-11-14T08:38:29Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2019-11-14T08:38:29Z"}

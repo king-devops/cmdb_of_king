@@ -1,0 +1,92 @@
+2019-11-20_00:53:43.07455 269:M 20 Nov 00:53:43.074 * 10 changes in 300 seconds. Saving...
+2019-11-20_00:53:43.07482 269:M 20 Nov 00:53:43.074 * Background saving started by pid 21372
+2019-11-20_00:53:43.08186 21372:C 20 Nov 00:53:43.081 * DB saved on disk
+2019-11-20_00:53:43.08222 21372:C 20 Nov 00:53:43.082 * RDB: 0 MB of memory used by copy-on-write
+2019-11-20_00:53:43.17505 269:M 20 Nov 00:53:43.175 * Background saving terminated with success
+2019-11-20_00:58:44.00763 269:M 20 Nov 00:58:44.007 * 10 changes in 300 seconds. Saving...
+2019-11-20_00:58:44.00809 269:M 20 Nov 00:58:44.007 * Background saving started by pid 21949
+2019-11-20_00:58:44.02404 21949:C 20 Nov 00:58:44.023 * DB saved on disk
+2019-11-20_00:58:44.02457 21949:C 20 Nov 00:58:44.024 * RDB: 0 MB of memory used by copy-on-write
+2019-11-20_00:58:44.10895 269:M 20 Nov 00:58:44.108 * Background saving terminated with success
+2019-11-20_01:03:45.03559 269:M 20 Nov 01:03:45.035 * 10 changes in 300 seconds. Saving...
+2019-11-20_01:03:45.03596 269:M 20 Nov 01:03:45.035 * Background saving started by pid 22553
+2019-11-20_01:03:45.04843 22553:C 20 Nov 01:03:45.048 * DB saved on disk
+2019-11-20_01:03:45.04894 22553:C 20 Nov 01:03:45.048 * RDB: 0 MB of memory used by copy-on-write
+2019-11-20_01:03:45.13626 269:M 20 Nov 01:03:45.136 * Background saving terminated with success
+2019-11-20_01:08:46.04597 269:M 20 Nov 01:08:46.045 * 10 changes in 300 seconds. Saving...
+2019-11-20_01:08:46.04645 269:M 20 Nov 01:08:46.046 * Background saving started by pid 23135
+2019-11-20_01:08:46.05784 23135:C 20 Nov 01:08:46.057 * DB saved on disk
+2019-11-20_01:08:46.05841 23135:C 20 Nov 01:08:46.058 * RDB: 0 MB of memory used by copy-on-write
+2019-11-20_01:08:46.14727 269:M 20 Nov 01:08:46.147 * Background saving terminated with success
+2019-11-20_01:13:47.06898 269:M 20 Nov 01:13:47.068 * 10 changes in 300 seconds. Saving...
+2019-11-20_01:13:47.06930 269:M 20 Nov 01:13:47.069 * Background saving started by pid 23721
+2019-11-20_01:13:47.07842 23721:C 20 Nov 01:13:47.078 * DB saved on disk
+2019-11-20_01:13:47.07893 23721:C 20 Nov 01:13:47.078 * RDB: 0 MB of memory used by copy-on-write
+2019-11-20_01:13:47.17021 269:M 20 Nov 01:13:47.170 * Background saving terminated with success
+2019-11-20_01:18:48.01348 269:M 20 Nov 01:18:48.013 * 10 changes in 300 seconds. Saving...
+2019-11-20_01:18:48.01396 269:M 20 Nov 01:18:48.013 * Background saving started by pid 24315
+2019-11-20_01:18:48.03140 24315:C 20 Nov 01:18:48.031 * DB saved on disk
+2019-11-20_01:18:48.03202 24315:C 20 Nov 01:18:48.031 * RDB: 0 MB of memory used by copy-on-write
+2019-11-20_01:18:48.11461 269:M 20 Nov 01:18:48.114 * Background saving terminated with success
+2019-11-20_01:23:49.06660 269:M 20 Nov 01:23:49.066 * 10 changes in 300 seconds. Saving...
+2019-11-20_01:23:49.06698 269:M 20 Nov 01:23:49.066 * Background saving started by pid 24906
+2019-11-20_01:23:49.07760 24906:C 20 Nov 01:23:49.077 * DB saved on disk
+2019-11-20_01:23:49.07818 24906:C 20 Nov 01:23:49.078 * RDB: 0 MB of memory used by copy-on-write
+2019-11-20_01:23:49.16792 269:M 20 Nov 01:23:49.167 * Background saving terminated with success
+2019-11-20_01:28:50.00859 269:M 20 Nov 01:28:50.008 * 10 changes in 300 seconds. Saving...
+2019-11-20_01:28:50.00885 269:M 20 Nov 01:28:50.008 * Background saving started by pid 25488
+2019-11-20_01:28:50.01560 25488:C 20 Nov 01:28:50.015 * DB saved on disk
+2019-11-20_01:28:50.01599 25488:C 20 Nov 01:28:50.015 * RDB: 0 MB of memory used by copy-on-write
+2019-11-20_01:28:50.10922 269:M 20 Nov 01:28:50.109 * Background saving terminated with success
+2019-11-20_01:33:51.01962 269:M 20 Nov 01:33:51.019 * 10 changes in 300 seconds. Saving...
+2019-11-20_01:33:51.02011 269:M 20 Nov 01:33:51.020 * Background saving started by pid 26076
+2019-11-20_01:33:51.03094 26076:C 20 Nov 01:33:51.030 * DB saved on disk
+2019-11-20_01:33:51.03143 26076:C 20 Nov 01:33:51.031 * RDB: 0 MB of memory used by copy-on-write
+2019-11-20_01:33:51.12047 269:M 20 Nov 01:33:51.120 * Background saving terminated with success
+2019-11-20_01:38:52.09690 269:M 20 Nov 01:38:52.096 * 10 changes in 300 seconds. Saving...
+2019-11-20_01:38:52.09745 269:M 20 Nov 01:38:52.097 * Background saving started by pid 26652
+2019-11-20_01:38:52.10749 26652:C 20 Nov 01:38:52.107 * DB saved on disk
+2019-11-20_01:38:52.10806 26652:C 20 Nov 01:38:52.107 * RDB: 0 MB of memory used by copy-on-write
+2019-11-20_01:38:52.19825 269:M 20 Nov 01:38:52.198 * Background saving terminated with success
+2019-11-20_01:43:53.06675 269:M 20 Nov 01:43:53.066 * 10 changes in 300 seconds. Saving...
+2019-11-20_01:43:53.06709 269:M 20 Nov 01:43:53.067 * Background saving started by pid 27241
+2019-11-20_01:43:53.07621 27241:C 20 Nov 01:43:53.076 * DB saved on disk
+2019-11-20_01:43:53.07686 27241:C 20 Nov 01:43:53.076 * RDB: 0 MB of memory used by copy-on-write
+2019-11-20_01:43:53.16814 269:M 20 Nov 01:43:53.168 * Background saving terminated with success
+2019-11-20_01:48:54.00331 269:M 20 Nov 01:48:54.003 * 10 changes in 300 seconds. Saving...
+2019-11-20_01:48:54.00383 269:M 20 Nov 01:48:54.003 * Background saving started by pid 27824
+2019-11-20_01:48:54.01526 27824:C 20 Nov 01:48:54.015 * DB saved on disk
+2019-11-20_01:48:54.01581 27824:C 20 Nov 01:48:54.015 * RDB: 0 MB of memory used by copy-on-write
+2019-11-20_01:48:54.10464 269:M 20 Nov 01:48:54.104 * Background saving terminated with success
+2019-11-20_01:53:55.06720 269:M 20 Nov 01:53:55.067 * 10 changes in 300 seconds. Saving...
+2019-11-20_01:53:55.06782 269:M 20 Nov 01:53:55.067 * Background saving started by pid 28417
+2019-11-20_01:53:55.07823 28417:C 20 Nov 01:53:55.078 * DB saved on disk
+2019-11-20_01:53:55.07885 28417:C 20 Nov 01:53:55.078 * RDB: 0 MB of memory used by copy-on-write
+2019-11-20_01:53:55.16819 269:M 20 Nov 01:53:55.168 * Background saving terminated with success
+2019-11-20_01:58:56.03349 269:M 20 Nov 01:58:56.033 * 10 changes in 300 seconds. Saving...
+2019-11-20_01:58:56.03396 269:M 20 Nov 01:58:56.033 * Background saving started by pid 28989
+2019-11-20_01:58:56.04329 28989:C 20 Nov 01:58:56.043 * DB saved on disk
+2019-11-20_01:58:56.04388 28989:C 20 Nov 01:58:56.043 * RDB: 0 MB of memory used by copy-on-write
+2019-11-20_01:58:56.13445 269:M 20 Nov 01:58:56.134 * Background saving terminated with success
+2019-11-20_02:03:57.00828 269:M 20 Nov 02:03:57.008 * 10 changes in 300 seconds. Saving...
+2019-11-20_02:03:57.00872 269:M 20 Nov 02:03:57.008 * Background saving started by pid 29597
+2019-11-20_02:03:57.01807 29597:C 20 Nov 02:03:57.017 * DB saved on disk
+2019-11-20_02:03:57.01857 29597:C 20 Nov 02:03:57.018 * RDB: 0 MB of memory used by copy-on-write
+2019-11-20_02:03:57.10923 269:M 20 Nov 02:03:57.109 * Background saving terminated with success
+2019-11-20_02:08:58.05748 269:M 20 Nov 02:08:58.057 * 10 changes in 300 seconds. Saving...
+2019-11-20_02:08:58.05810 269:M 20 Nov 02:08:58.057 * Background saving started by pid 30179
+2019-11-20_02:08:58.06891 30179:C 20 Nov 02:08:58.068 * DB saved on disk
+2019-11-20_02:08:58.06950 30179:C 20 Nov 02:08:58.069 * RDB: 0 MB of memory used by copy-on-write
+2019-11-20_02:08:58.15858 269:M 20 Nov 02:08:58.158 * Background saving terminated with success
+2019-11-20_02:13:59.03139 269:M 20 Nov 02:13:59.031 * 10 changes in 300 seconds. Saving...
+2019-11-20_02:13:59.03170 269:M 20 Nov 02:13:59.031 * Background saving started by pid 30765
+2019-11-20_02:13:59.04330 30765:C 20 Nov 02:13:59.043 * DB saved on disk
+2019-11-20_02:13:59.04398 30765:C 20 Nov 02:13:59.043 * RDB: 0 MB of memory used by copy-on-write
+2019-11-20_02:13:59.13239 269:M 20 Nov 02:13:59.132 * Background saving terminated with success
+2019-11-20_02:15:12.28455 269:signal-handler (1574216112) Received SIGTERM scheduling shutdown...
+2019-11-20_02:15:12.35673 269:M 20 Nov 02:15:12.356 # User requested shutdown...
+2019-11-20_02:15:12.35677 269:M 20 Nov 02:15:12.356 * Saving the final RDB snapshot before exiting.
+2019-11-20_02:15:12.36301 269:M 20 Nov 02:15:12.362 * DB saved on disk
+2019-11-20_02:15:12.36302 269:M 20 Nov 02:15:12.363 * Removing the pid file.
+2019-11-20_02:15:12.36306 269:M 20 Nov 02:15:12.363 * Removing the unix socket file.
+2019-11-20_02:15:12.36309 269:M 20 Nov 02:15:12.363 # Redis is now ready to exit, bye bye...

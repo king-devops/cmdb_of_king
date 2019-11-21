@@ -1,0 +1,161 @@
+{%  extends  'base.html'  %}
+
+{% block path %}
+<h1>
+    Data Table
+    <small>advanced tables</small>
+</h1>
+<ol class="breadcrumb">
+    <li><a href="/"><i class="fa fa-dashboard"></i> Home</a></li>
+    <li class="active">Server tables</li>
+</ol>
+{% endblock %}
+
+{%  block  content  %}
+{% verbatim %}
+<div class="row" id="app">
+    <div class="col-xs-12">
+        <div class="box">
+            <div class="box-header">
+                <h3 class="box-title">服务器表</h3>
+            </div>
+            <!--  /.box-header  -->
+            <div class="box-body">
+                <div id="example2_wrapper" class="dataTables_wrapper  form-inline  dt-bootstrap">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <table id="example2" class="table  table-bordered  table-hover  dataTable" role="grid"
+                                aria-describedby="example2_info">
+                                <thead>
+                                    <tr role="row">
+                                        <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1"
+                                            colspan="1" aria-label="CSS  grade:  activate  to  sort  column  ascending">
+                                            ID</th>
+                                        <th class="sorting_asc" tabindex="0" aria-controls="example2" rowspan="1"
+                                            colspan="1" aria-sort="ascending"
+                                            aria-label="Rendering  engine:  activate  to  sort  column  descending">
+                                            主机名</th>
+                                        <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1"
+                                            colspan="1" aria-label="Browser:  activate  to  sort  column  ascending">
+                                            操作系统</th>
+                                        <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1"
+                                            colspan="1" aria-label="Browser:  activate  to  sort  column  ascending">
+                                            系统架构</th>
+                                        <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1"
+                                            colspan="1" aria-label="Browser:  activate  to  sort  column  ascending">
+                                            内核信息</th>
+                                        <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1"
+                                            colspan="1"
+                                            aria-label="Platform(s):  activate  to  sort  column  ascending">
+                                            cpu名称</th>
+                                        <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1"
+                                            colspan="1"
+                                            aria-label="Engine  version:  activate  to  sort  column  ascending">
+                                            cpu类型</th>
+                                        <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1"
+                                            colspan="1"
+                                            aria-label="Engine  version:  activate  to  sort  column  ascending">
+                                            cpu物理颗数</th>
+                                        <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1"
+                                            colspan="1"
+                                            aria-label="Engine  version:  activate  to  sort  column  ascending">
+                                            每颗cpu核心数</th>
+                                        <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1"
+                                            colspan="1"
+                                            aria-label="Engine  version:  activate  to  sort  column  ascending">
+                                            资产</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    <tr v-for="item in servers.results" :key="" role="row" class="odd">
+                                        <td>{{ item.id }}</td>
+                                        <td>{{ item.host_name }}</td>
+                                        <td>{{ item.os_name }}</td>
+                                        <td>{{ item.machine}}</td>
+                                        <td>{{ item.kernel }}</td>
+                                        <td>{{ item.model_name }}</td>
+                                        <td>{{ item.cpu_type }}</td>
+                                        <td>{{ item.physical_count }}</td>
+                                        <td>{{ item.cpu_cores }}</td>
+                                        <td>{{ item.asset.name }}</td>
+                                    </tr>
+
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <th rowspan="1" colspan="1">id</th>
+                                        <th rowspan="1" colspan="1">主机名</th>
+                                        <th rowspan="1" colspan="1">操作系统</th>
+                                        <th rowspan="1" colspan="1">系统架构</th>
+                                        <th rowspan="1" colspan="1">内核信息</th>
+                                        <th rowspan="1" colspan="1">cpu名称</th>
+                                        <th rowspan="1" colspan="1">cpu类型</th>
+                                        <th rowspan="1" colspan="1">cpu物理颗数</th>
+                                        <th rowspan="1" colspan="1">每颗cpu核心数</th>
+                                        <th rowspan="1" colspan="1">资产</th>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <h3 class="dataTables_info">
+                                总计{{ servers.count }}条数据！
+                            </h3>
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="dataTables_paginate paging_simple_numbers" id="example2_paginate">
+                                <ul class="pagination">
+                                    <li class="paginate_button previous " id="example2_previous">
+                                        <a href="#" @click="getUrl(servers.links.previous_url)">Previous</a>
+                                    </li>
+                                    <li v-for="item in servers.links.page_links " class="paginate_button "
+                                        v-bind:class="{ active : item[2] }">
+                                        <a href="#" v-if="! item[3]" @click="getUrl(item[0])">{{ item[1] }}</a>
+                                        <a href="#" v-else>...</a>
+                                    </li>
+                                    <li class="paginate_button next" id="example2_next">
+                                        <a href="#" @click="getUrl(servers.links.next_url)">Next</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endverbatim %}
+{% endblock %}
+
+{% block script %}
+<script>
+    var app = new Vue({
+        el: "#app",
+        data: {
+            servers: [],
+        },
+        mounted() {
+            axios.get(
+                'http://127.0.0.1:8000/cmdb/server/',
+            ).then(
+                res => {
+                    this.servers = res.data;
+                });
+        },
+        methods: {
+            getUrl: function (url) {
+                axios.get(
+                    url,
+                ).then(
+                    ress => {
+                        this.servers = ress.data;
+                    });
+            }
+        }
+    })
+</script>
+{% endblock %}

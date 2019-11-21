@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-11-19 12:48:58.762 UTC</timestamp>
+  <original>
+    <name>pipeline-docker-cmdb</name>
+    <number>5</number>
+  </original>
+  <md5sum>72569f135f09fbd00379623faef23c98</md5sum>
+  <fileName>Docker image sha256:72569f135f09fbd00379623faef23c98ee1d6e3a91c29c1397ab4e98b84ccfb9</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.15">
+      <timestamp>1574167738765</timestamp>
+      <imageId>sha256:72569f135f09fbd00379623faef23c98ee1d6e3a91c29c1397ab4e98b84ccfb9</imageId>
+      <usages>
+        <entry>
+          <string>pipeline-docker-cmdb</string>
+          <ranges>5</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>f01875240526</host>
+          <containerId>f018752405262868d578c4e026438a7e74b4c1c90e80571e30216f2fe3216442</containerId>
+          <containerName>/infallible_mccarthy</containerName>
+          <created>1574167738000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>

@@ -1,0 +1,6 @@
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='saferestart' version='0.3'>
+  <l:dependency name='Safe Restart Plugin' groupId='org.jenkins-ci.plugins' artifactId='saferestart' version='0.3' url='http://wiki.jenkins-ci.org/display/JENKINS/SafeRestart+Plugin'>
+    <l:description>This plugin allows you to restart Jenkins safely.</l:description>
+    <l:license name='The MIT license' url='https://github.com/jenkinsci/saferestart-plugin/raw/master/LICENSE.txt' />
+  </l:dependency>
+</l:dependencies>

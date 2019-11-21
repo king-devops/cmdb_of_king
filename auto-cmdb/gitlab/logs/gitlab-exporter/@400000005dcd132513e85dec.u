@@ -1,0 +1,11 @@
+2019-11-14_08:37:52.77397 == Sinatra (v2.0.7) has taken the stage on 9168 for development with backup from Puma
+2019-11-14_08:37:52.77405 Puma starting in single mode...
+2019-11-14_08:37:52.77406 * Version 3.12.0 (ruby 2.6.3-p62), codename: Llamas in Pajamas
+2019-11-14_08:37:52.77406 * Min threads: 0, max threads: 16
+2019-11-14_08:37:52.77406 * Environment: development
+2019-11-14_08:37:52.77407 * Listening on tcp://localhost:9168
+2019-11-14_08:37:52.77407 Use Ctrl-C to stop
+2019-11-14_08:38:45.36770 - Gracefully stopping, waiting for requests to finish
+2019-11-14_08:38:45.37160 === puma shutdown: 2019-11-14 08:38:45 +0000 ===
+2019-11-14_08:38:45.37163 - Goodbye!
+2019-11-14_08:38:45.37164 == Sinatra has ended his set (crowd applauds)

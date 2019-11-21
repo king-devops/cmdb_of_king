@@ -1,0 +1,22 @@
+Started by user [8mha:////4C5wxn62V2PKMWQP7OKYw+BB4TxXhQKg+iX9HYPoErnYAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/maven-hello
+using credential f346320a-1339-4887-bc6a-0ffbc603c561
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@gitlab_server:king/java_test.git # timeout=10
+Fetching upstream changes from git@gitlab_server:king/java_test.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 这是cmdb项目中gitlab的私钥
+ > git fetch --tags --force --progress -- git@gitlab_server:king/java_test.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 36432cb2971c1c22d60c52481fcb4ec448ccb714 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 36432cb2971c1c22d60c52481fcb4ec448ccb714 # timeout=10
+Commit message: "sss"
+First time build. Skipping changelog.
+Parsing POMs
+ERROR: No such file /var/jenkins_home/workspace/maven-hello/pom.xml
+Perhaps you need to specify the correct POM file path in the project configuration?
+Finished: FAILURE

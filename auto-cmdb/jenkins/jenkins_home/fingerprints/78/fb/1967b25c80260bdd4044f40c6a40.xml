@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-11-19 07:37:47.938 UTC</timestamp>
+  <original>
+    <name>stages-docker-agent</name>
+    <number>1</number>
+  </original>
+  <md5sum>78fb1967b25c80260bdd4044f40c6a40</md5sum>
+  <fileName>Docker image sha256:78fb1967b25c80260bdd4044f40c6a4049926ffd7c60d4364fef688d97a0d1cf</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.15">
+      <timestamp>1574149067942</timestamp>
+      <imageId>sha256:78fb1967b25c80260bdd4044f40c6a4049926ffd7c60d4364fef688d97a0d1cf</imageId>
+      <usages>
+        <entry>
+          <string>stages-docker-agent</string>
+          <ranges>1</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>aa8764546d7d</host>
+          <containerId>aa8764546d7d720a518250191cd06d154d7a80b4543ea8160c991ea2feb296af</containerId>
+          <containerName>/hungry_dewdney</containerName>
+          <created>1574149067000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>

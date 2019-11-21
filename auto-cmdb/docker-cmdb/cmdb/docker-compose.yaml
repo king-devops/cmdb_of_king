@@ -1,0 +1,130 @@
+# pipeline{
+#       agent any
+#       stages {
+#               stage('Stage 1') {
+#                      steps {
+#                             echo 'Hello world!'
+#                             sh 'echo "hello"'
+#                             input message: '看看分支', parameters: [gitParameter(branch: '', branchFilter: '.*', defaultValue: 'master', description: '''master
+# dev''', name: 'brach_name', quickFilterEnabled: false, selectedValue: 'NONE', sortMode: 'NONE', tagFilter: '*', type: 'PT_BRANCH')], submitter: 'root'
+#           }
+#           }
+#           stage('Stage 2') {
+#                      steps {
+#                            echo '2'
+#                      }
+#                      }
+#            stage('Stage 3') {
+#                      steps {
+#                        echo '3'
+#                      }
+#       }
+#     }
+# }
+#       submitter "alice"
+
+# pipeline {
+#     agent { docker 
+#     image:'maven:3-alpine' } 
+#     stages {
+#         stage('Example Build') {
+#             steps {
+#                 git credentialsId: 'f346320a-1339-4887-bc6a-0ffbc603c561', url: 'git@gitlab_server:root/mycmdb.git'
+#                 sh 'mvn -B clean verify'
+#                 sh  'ls ${WORKSPACE}'
+#             }
+#         }
+#     }
+# }
+
+# pipeline {
+#     agent none 
+#     stages {
+#         stage('Example Build') {
+#             agent { docker 'auto-cmdb_cmdb' } 
+#             steps {
+#                 git credentialsId: 'f346320a-1339-4887-bc6a-0ffbc603c561', url: 'git@gitlab_server:root/mycmdb.git'
+#                 sh 'mvn -B clean verify'
+#                 sh  'ls ${WORKSPACE}'
+#             }
+#         }
+# }
+# }
+
+
+# pipeline {
+#     agent none 
+#     stages {
+#         stage('Example Build') {
+#             agent { docker 'maven:3-alpine' } 
+#             steps {
+#                 echo 'Hello, Maven'
+#                 sh 'mvn -B clean verify'
+#                 sh 'mvn -B -DskipTests clean package'
+#             }
+#         }
+
+
+###打包maven项目
+# pipeline {
+#     agent none
+#     stages { 
+#         stage('Example Test') {
+#             agent { docker 'auto-cmdb_cmdb' } 
+#             steps {
+#               git credentialsId: 'f346320a-1339-4887-bc6a-0ffbc603c561', url: 'git@gitlab_server:root/last_cmdb.git'
+#               sh  'ls ${WORKSPACE}'
+#             }
+#         }
+#         stage('Example Build') {
+#             agent { docker 'maven:3-alpine' } 
+#             steps {
+#                 sh 'mvn -B -DskipTests clean package'
+#             }
+#         }
+#         stage('tar'){
+#           agent   any 
+#           steps{
+#             sh "tar -cf last_cmdb.tar ${WORKSPACE}/target/*.jar"         
+#           }
+#         }
+#     }
+# }
+
+###使用pipeline改写docker-compose
+pipeline {
+    agent none
+    stages { 
+        stage('cmdb docker') {
+            agent { docker 'auto-cmdb_cmdb' } 
+            steps {
+              sh  'ls ${WORKSPACE}'
+              git credentialsId: 'f346320a-1339-4887-bc6a-0ffbc603c561', url: 'git@gitlab_server:root/docker-compose-cmdb.git'
+            }
+        }
+        stage('mysql docker') {
+            agent { docker 'mysql:5.7' } 
+            steps {
+              sh  'ls ${WORKSPACE}'
+            }
+        }
+        stage('nginx docker') {
+            agent { docker 'nginx:alpine3.10' } 
+            steps {
+              sh  'ls ${WORKSPACE}'
+            }
+        }
+        stage('redis docker') {
+            agent { docker 'redis:alpine' } 
+            steps {
+              sh  'ls ${WORKSPACE}'
+            }
+        }
+        stage('rabbitmq docker') {
+            agent { docker 'rabbitmq:alpine' } 
+            steps {
+              sh  'ls ${WORKSPACE}'   
+            }
+        }
+}
+}

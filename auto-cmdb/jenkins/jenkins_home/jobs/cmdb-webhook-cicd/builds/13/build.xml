@@ -1,0 +1,110 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <com.dabsquared.gitlabjenkins.cause.GitLabWebHookCause plugin="gitlab-plugin@1.5.13">
+            <data>
+              <actionType>PUSH</actionType>
+              <sourceProjectId>4</sourceProjectId>
+              <targetProjectId>4</targetProjectId>
+              <branch>master</branch>
+              <sourceBranch>master</sourceBranch>
+              <userName>Administrator</userName>
+              <userEmail></userEmail>
+              <sourceRepoHomepage>http://10.0.122.100:9280/root/mycmdb</sourceRepoHomepage>
+              <sourceRepoName>mycmdb</sourceRepoName>
+              <sourceNamespace>Administrator</sourceNamespace>
+              <sourceRepoUrl>git@10.0.122.100:root/mycmdb.git</sourceRepoUrl>
+              <sourceRepoSshUrl>git@10.0.122.100:root/mycmdb.git</sourceRepoSshUrl>
+              <sourceRepoHttpUrl>http://10.0.122.100:9280/root/mycmdb.git</sourceRepoHttpUrl>
+              <mergeRequestTitle></mergeRequestTitle>
+              <mergeRequestDescription></mergeRequestDescription>
+              <mergeRequestState></mergeRequestState>
+              <mergedByUser></mergedByUser>
+              <mergeRequestAssignee></mergeRequestAssignee>
+              <targetBranch>master</targetBranch>
+              <targetRepoName></targetRepoName>
+              <targetNamespace></targetNamespace>
+              <targetRepoSshUrl></targetRepoSshUrl>
+              <targetRepoHttpUrl></targetRepoHttpUrl>
+              <triggeredByUser>Administrator</triggeredByUser>
+              <before>b762412a1fbdf58b9dfe750bbe8ee2c7861befa0</before>
+              <after>e86f1d9a1b1c6978636a9b25d3f74ce9c90aa644</after>
+              <lastCommit>e86f1d9a1b1c6978636a9b25d3f74ce9c90aa644</lastCommit>
+              <targetProjectUrl>http://10.0.122.100:9280/root/mycmdb</targetProjectUrl>
+            </data>
+          </com.dabsquared.gitlabjenkins.cause.GitLabWebHookCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.triggers.SCMTrigger_-BuildAction/>
+    <hudson.plugins.git.RevisionParameterAction plugin="git@4.0.0">
+      <commit>remotes/origin/master</commit>
+      <combineCommits>false</combineCommits>
+      <repoURL plugin="git-client@3.0.0">
+        <path>root/mycmdb.git</path>
+        <rawPath>root/mycmdb.git</rawPath>
+        <user>git</user>
+        <port>-1</port>
+        <host>10.0.122.100</host>
+      </repoURL>
+    </hudson.plugins.git.RevisionParameterAction>
+    <hudson.plugins.git.util.BuildData plugin="git@4.0.0">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.0.0">
+              <sha1>e86f1d9a1b1c6978636a9b25d3f74ce9c90aa644</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>13</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>git@gitlab_server:root/mycmdb.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.git.GitTagAction plugin="git@4.0.0">
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>/var/jenkins_home/workspace/cmdb-webhook-cicd</ws>
+    </hudson.plugins.git.GitTagAction>
+    <hudson.scm.SCMRevisionState_-None/>
+    <com.cloudbees.jenkins.plugins.bitbucket.FirstCheckoutCompletedInvisibleAction plugin="cloudbees-bitbucket-branch-source@2.6.0"/>
+    <com.sonyericsson.rebuild.RebuildAction plugin="rebuild@1.31"/>
+  </actions>
+  <queueId>39</queueId>
+  <timestamp>1573805554458</timestamp>
+  <startTime>1573805554462</startTime>
+  <result>SUCCESS</result>
+  <description>Started by GitLab push by Administrator</description>
+  <duration>38669</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/jenkins_home/workspace/cmdb-webhook-cicd</workspace>
+  <hudsonVersion>2.190.2</hudsonVersion>
+  <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@4.0.0">
+    <authorOrCommitter>false</authorOrCommitter>
+    <showEntireCommitSummaryInChanges>true</showEntireCommitSummaryInChanges>
+  </scm>
+  <culprits class="com.google.common.collect.RegularImmutableSortedSet">
+    <string>admin</string>
+  </culprits>
+</build>

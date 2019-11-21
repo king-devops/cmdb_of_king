@@ -1,0 +1,12 @@
+{"level":"info","msg":"Starting","time":"2019-11-14T08:33:06Z","version":"gitlab-workhorse v8.14.0-20191104.154533"}
+{"configFile":"config.toml","error":"open config.toml: no such file or directory","level":"fatal","msg":"Can not load config file","time":"2019-11-14T08:33:06Z"}
+{"level":"info","msg":"Starting","time":"2019-11-14T08:33:07Z","version":"gitlab-workhorse v8.14.0-20191104.154533"}
+{"level":"info","msg":"keywatcher: starting process loop","time":"2019-11-14T08:33:07Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2019-11-14T08:33:07Z"}
+{"correlation_id":"U6if3XDPTn4","error":"badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: no such file or directory","level":"error","method":"GET","msg":"error","time":"2019-11-14T08:33:32Z","uri":"/help"}
+{"correlation_id":"U6if3XDPTn4","duration_ms":2,"host":"localhost:9280","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","status":502,"system":"http","time":"2019-11-14T08:33:32Z","uri":"/help","user_agent":"curl/7.59.0-DEV","written_bytes":2940}
+{"correlation_id":"aVQR9Nw8Aj","duration_ms":1112,"host":"localhost:9280","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","status":200,"system":"http","time":"2019-11-14T08:34:33Z","uri":"/help","user_agent":"curl/7.59.0-DEV","written_bytes":83409}
+{"level":"info","msg":"Starting","time":"2019-11-14T08:34:34Z","version":"gitlab-workhorse v8.14.0-20191104.154533"}
+{"level":"info","msg":"keywatcher: starting process loop","time":"2019-11-14T08:34:34Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2019-11-14T08:34:34Z"}
+{"correlation_id":"CpFlVKyz1G9","duration_ms":981,"host":"localhost:9280","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","status":200,"system":"http","time":"2019-11-14T08:35:34Z","uri":"/help","user_agent":"curl/7.59.0-DEV","written_bytes":83409}

@@ -1,0 +1,65 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@2.36">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@1.4.0"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@1.4.0">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.plugins.jira.JiraProjectProperty plugin="jira@3.0.10"/>
+    <com.dabsquared.gitlabjenkins.connection.GitLabConnectionProperty plugin="gitlab-plugin@1.5.13">
+      <gitLabConnection></gitLabConnection>
+    </com.dabsquared.gitlabjenkins.connection.GitLabConnectionProperty>
+    <com.sonyericsson.rebuild.RebuildSettings plugin="rebuild@1.31">
+      <autoRebuild>false</autoRebuild>
+      <rebuildDisabled>false</rebuildDisabled>
+    </com.sonyericsson.rebuild.RebuildSettings>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.76">
+    <script>pipeline {
+    agent none
+    stages { 
+        stage(&apos;cmdb docker&apos;) {
+            agent { docker &apos;auto-cmdb_cmdb&apos; } 
+            steps {
+              sh  &apos;ls ${WORKSPACE}&apos;
+              git credentialsId: &apos;f346320a-1339-4887-bc6a-0ffbc603c561&apos;, url: &apos;git@gitlab_server:root/docker-compose-cmdb.git&apos;
+            }
+        }
+        stage(&apos;mysql docker&apos;) {
+            agent { docker &apos;mysql:5.7&apos; } 
+            steps {
+              sh  &apos;ls ${WORKSPACE}&apos;
+            }
+        }
+        stage(&apos;nginx docker&apos;) {
+            agent { docker &apos;nginx:alpine3.10&apos; } 
+            steps {
+              sh  &apos;ls ${WORKSPACE}&apos;
+            }
+        }
+        stage(&apos;redis docker&apos;) {
+            agent { docker &apos;redis:alpine&apos; } 
+            steps {
+              sh  &apos;ls ${WORKSPACE}&apos;
+            }
+        }
+        stage(&apos;rabbitmq docker&apos;) {
+            agent { docker &apos;rabbitmq:alpine&apos; } 
+            steps {
+              sh  &apos;ls ${WORKSPACE}&apos;   
+            }
+        }
+}
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

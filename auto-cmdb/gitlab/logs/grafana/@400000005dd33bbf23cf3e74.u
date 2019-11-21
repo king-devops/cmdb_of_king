@@ -1,0 +1,46 @@
+2019-11-18_09:43:38.02506 t=2019-11-18T09:43:38+0000 lvl=info msg="Starting Grafana" logger=server version=6.3.5 commit=67bad72 branch=HEAD compiled=2019-09-02T09:34:49+0000
+2019-11-18_09:43:38.03324 t=2019-11-18T09:43:38+0000 lvl=info msg="Config loaded from" logger=settings file=/var/opt/gitlab/grafana/conf/defaults.ini
+2019-11-18_09:43:38.03341 t=2019-11-18T09:43:38+0000 lvl=info msg="Config loaded from" logger=settings file=/var/opt/gitlab/grafana/grafana.ini
+2019-11-18_09:43:38.03348 t=2019-11-18T09:43:38+0000 lvl=info msg="Path Home" logger=settings path=/var/opt/gitlab/grafana
+2019-11-18_09:43:38.03356 t=2019-11-18T09:43:38+0000 lvl=info msg="Path Data" logger=settings path=/var/opt/gitlab/grafana/data
+2019-11-18_09:43:38.03370 t=2019-11-18T09:43:38+0000 lvl=info msg="Path Logs" logger=settings path=/var/log/gitlab/grafana
+2019-11-18_09:43:38.03378 t=2019-11-18T09:43:38+0000 lvl=info msg="Path Plugins" logger=settings path=/var/opt/gitlab/grafana/data/plugins
+2019-11-18_09:43:38.03394 t=2019-11-18T09:43:38+0000 lvl=info msg="Path Provisioning" logger=settings path=/var/opt/gitlab/grafana/provisioning
+2019-11-18_09:43:38.03401 t=2019-11-18T09:43:38+0000 lvl=info msg="App mode production" logger=settings
+2019-11-18_09:43:38.03950 t=2019-11-18T09:43:38+0000 lvl=info msg="Initializing SqlStore" logger=server
+2019-11-18_09:43:38.04022 t=2019-11-18T09:43:38+0000 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+2019-11-18_09:43:38.05119 t=2019-11-18T09:43:38+0000 lvl=info msg="Starting DB migration" logger=migrator
+2019-11-18_09:43:38.16366 t=2019-11-18T09:43:38+0000 lvl=info msg="Initializing HTTPServer" logger=server
+2019-11-18_09:43:38.17681 t=2019-11-18T09:43:38+0000 lvl=info msg="Initializing InternalMetricsService" logger=server
+2019-11-18_09:43:38.17977 t=2019-11-18T09:43:38+0000 lvl=info msg="Initializing RemoteCache" logger=server
+2019-11-18_09:43:38.17985 t=2019-11-18T09:43:38+0000 lvl=info msg="Initializing QuotaService" logger=server
+2019-11-18_09:43:38.17992 t=2019-11-18T09:43:38+0000 lvl=info msg="Initializing PluginManager" logger=server
+2019-11-18_09:43:38.17999 t=2019-11-18T09:43:38+0000 lvl=info msg="Starting plugin search" logger=plugins
+2019-11-18_09:43:38.51159 t=2019-11-18T09:43:38+0000 lvl=info msg="Initializing RenderingService" logger=server
+2019-11-18_09:43:38.51721 t=2019-11-18T09:43:38+0000 lvl=info msg="Initializing DatasourceCacheService" logger=server
+2019-11-18_09:43:38.51921 t=2019-11-18T09:43:38+0000 lvl=info msg="Initializing HooksService" logger=server
+2019-11-18_09:43:38.51929 t=2019-11-18T09:43:38+0000 lvl=info msg="Initializing LoginService" logger=server
+2019-11-18_09:43:38.51936 t=2019-11-18T09:43:38+0000 lvl=info msg="Initializing SearchService" logger=server
+2019-11-18_09:43:38.51942 t=2019-11-18T09:43:38+0000 lvl=info msg="Initializing ServerLockService" logger=server
+2019-11-18_09:43:38.51948 t=2019-11-18T09:43:38+0000 lvl=info msg="Initializing TracingService" logger=server
+2019-11-18_09:43:38.51956 t=2019-11-18T09:43:38+0000 lvl=info msg="Initializing UsageStatsService" logger=server
+2019-11-18_09:43:38.51962 t=2019-11-18T09:43:38+0000 lvl=info msg="Initializing UserAuthTokenService" logger=server
+2019-11-18_09:43:38.51970 t=2019-11-18T09:43:38+0000 lvl=info msg="Initializing CleanUpService" logger=server
+2019-11-18_09:43:38.51976 t=2019-11-18T09:43:38+0000 lvl=info msg="Initializing NotificationService" logger=server
+2019-11-18_09:43:38.53547 t=2019-11-18T09:43:38+0000 lvl=info msg="Initializing provisioningServiceImpl" logger=server
+2019-11-18_09:43:38.68110 t=2019-11-18T09:43:38+0000 lvl=info msg="Initializing Stream Manager"
+2019-11-18_09:43:38.68114 t=2019-11-18T09:43:38+0000 lvl=info msg="HTTP Server Listen" logger=http.server address=localhost:3000 protocol=http subUrl=/-/grafana socket=
+2019-11-19_00:47:06.87483 t=2019-11-19T00:47:06+0000 lvl=info msg="Shutdown started" logger=server reason="System signal: terminated"
+2019-11-19_00:47:06.87609 t=2019-11-19T00:47:06+0000 lvl=info msg="Stopped UsageStatsService" logger=server reason="context canceled"
+2019-11-19_00:47:06.87611 t=2019-11-19T00:47:06+0000 lvl=info msg="Stopped PluginManager" logger=server reason="context canceled"
+2019-11-19_00:47:06.87806 t=2019-11-19T00:47:06+0000 lvl=info msg="Stopped CleanUpService" logger=server reason="context canceled"
+2019-11-19_00:47:06.87830 t=2019-11-19T00:47:06+0000 lvl=info msg="Stopped TracingService" logger=server reason=nil
+2019-11-19_00:47:06.87855 t=2019-11-19T00:47:06+0000 lvl=info msg="Stopped UserAuthTokenService" logger=server reason="context canceled"
+2019-11-19_00:47:06.87859 t=2019-11-19T00:47:06+0000 lvl=info msg="Stopped provisioningServiceImpl" logger=server reason="context canceled"
+2019-11-19_00:47:06.88094 t=2019-11-19T00:47:06+0000 lvl=info msg="Stopped RemoteCache" logger=server reason="context canceled"
+2019-11-19_00:47:06.88147 t=2019-11-19T00:47:06+0000 lvl=info msg="Stopped NotificationService" logger=server reason="context canceled"
+2019-11-19_00:47:06.88155 t=2019-11-19T00:47:06+0000 lvl=info msg="Stopped Stream Manager"
+2019-11-19_00:47:06.88316 t=2019-11-19T00:47:06+0000 lvl=info msg="Stopped InternalMetricsService" logger=server reason="context canceled"
+2019-11-19_00:47:06.88360 t=2019-11-19T00:47:06+0000 lvl=info msg="Stopped RenderingService" logger=server reason=nil
+2019-11-19_00:47:06.98797 t=2019-11-19T00:47:06+0000 lvl=info msg="Stopped HTTPServer" logger=server reason=nil
+2019-11-19_00:47:06.98807 t=2019-11-19T00:47:06+0000 lvl=eror msg="Server shutdown" logger=server reason="System signal: terminated"
